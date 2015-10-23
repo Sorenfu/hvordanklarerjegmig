@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab 2.0 Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd" xlink:type="simple"/>
+  <xbrli:context id="duration_only">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34703299</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2012-09-11</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+  <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34703299</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2012-09-11</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+</xbrli:context>
+  <xbrli:context id="instant_only">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">34703299</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2013-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+  <xbrli:unit id="DKK">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:ancestor="generelInfo" basis:version="2" contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">2014-07-04</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">Jens Petersen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">DK MALERSERVICE ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName basis:ancestor="generelInfo" contextRef="duration_only">Meterbuen</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier basis:ancestor="generelInfo" contextRef="duration_only">41</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier basis:ancestor="generelInfo" contextRef="duration_only">2740</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName basis:ancestor="generelInfo" contextRef="duration_only">Skovlunde</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">34703299</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate basis:ancestor="generelInfo" contextRef="duration_only">2012-09-11</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate basis:ancestor="generelInfo" contextRef="duration_only">2013-12-31</gsd:ReportingPeriodEndDate>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract" contextRef="duration_memberOfExecutiveBoardIdentifier_1">Mark Wicklander</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption basis:ancestor="statementByExecutive" contextRef="duration_only">Ja</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+  <fsa:InformationOnReportingClassOfEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies basis:ancestor="regnskabspraksis" contextRef="duration_only">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;....Årsrapporten for DK Malerservice Aps  for
+2012/2013 er aflagt i overensstemmelse med årsregnskabslovens
+bestemmelser for klasse B-virksomheder og er aflagt i danske
+kroner.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Regnskabspraksis er uændret i forhold til sidste
+år.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Den anvendte regnskabspraksis er i hovedtræk
+følgende:&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt; GENERELT&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;I resultatopgørelsen indregnes indtægter i takt med,
+at de indtjenes, herunder indregnes værdireguleringer af
+finansielle aktiver og forpligtelser. I resultatopgørelsen
+indregnes ligeledes alle omkostninger, herunder afskrivninger og
+nedskrivninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at
+fremtidige økonomiske fordele vil tilflyde selskabet, og
+aktivet værdi kan måles pålideligt. Forpligtelser
+indregnes i balancen, når det er sandsynligt, at fremtidige
+økonomiske fordele vil fragå selskabet, og forpligtelsens
+værdi kan måles pålideligt. Ved første
+indregning måles aktiver og forpligtelser til kostpris.
+Efterfølgende måles aktiver og forpligtelser som
+beskrevet for hver enkelt regnskabspost nedenfor. Visse finansielle
+aktiver og forpligtelser måles til amortiseret kostpris,
+hvorved der indregnes en konstant effektiv rente over
+løbetiden. Amortiseret kostpris opgøres som oprindelig
+kostpris med fradrag af eventuelle afdrag samt tillæg/fradrag
+af den akkumulerede amortisering af forskellen mellem kostpris og
+nominelt beløb.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ved indregning og måling tages hensyn til forudsigelige tab
+og risici, der fremkommer inden årsrapporten aflægges, og
+som be- eller afkræfter forhold, der eksisterede på
+balancedagen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Omregning af beløb i fremmedvaluta
+&lt;br/&gt; Transaktioner i fremmed valuta omregnes til
+transaktionsdagens kurs. Valutakursdifferencer, der opstår
+mellem transaktionsdagens kurs og kursen på betalingsdagen,
+indregnes i resultatopgørelsen som en finansiel post.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Tilgodehavender, gæld og andre monetære poster i
+fremmed valuta, som ikke er afregnet på balancedagen, omregnes
+til balancedagens valutakurs. Forskellen mellem balancedagens kurs
+og kursen på tidspunktet for tilgodehavendets eller
+gældens opståen indregnes i resultatopgørelsen under
+finansielle poster.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Anlægsaktiver, der er købt i fremmed valuta, omregnes
+til kursen på transaktionsdagen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabet benytter ikke finansielle instrumenter til sikring af
+modværdien i danske kroner af balanceposter i fremmed valuta
+samt fremtidige transaktioner i fremmed valuta.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;....Nettoomsætning&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Nettoomsætningen indregnes i resultatopgørelsen i takt
+med, at betaling finder sted.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Andre driftsindtægter og -omkostninger
+&lt;br/&gt; Andre driftsindtægter og -omkostninger indeholder
+regnskabsposter af sekundære karakter i forhold til
+virksomhedens hovedaktivitet.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Andre eksterne omkostninger
+&lt;br/&gt; Andre eksterne omkostninger omfatter omkostninger til
+distribution, salg, reklame, administration, lokaler, tab på
+debitorer m.v.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt; Finansielle poster
+&lt;br/&gt; Finansielle indtægter og udgifter indregnes i
+resultatopgørelsen med de beløb, der vedrører
+regnskabsåret.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Finansielle poster omfatter renteindtægter og -udgifter,
+realiserede og urealiserede kursgevinster og -tab vedrørende
+værdipapirer, gæld og transaktioner i fremmed valuta,
+amortisering af finansielle aktiver og forpligtelser samt
+tillæg og godtgørelse under acontoskatteordningen
+m.v.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ekstraordinære indtægter og udgifter
+&lt;br/&gt; Ekstraordinære indtægter og omkostninger
+indeholder indtægter og omkostninger, som hidrører fra
+begivenheder eller transaktioner, der klart afviger fra den
+ordinære drift og som ikke forventes at være af
+tilbagevendende karakter&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Immaterielle anlægsaktiver
+&lt;br/&gt; Udviklingsomkostninger omfatter omkostninger, herunder
+lønninger og gager samt afskrivninger, der direkte og
+indirekte kan henføres til selskabets udviklingsaktiviteter og
+som opfylder kriterierne for indregning.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktiverede udviklingsomkostninger måles til kostpris med
+fradrag af akkumulerede afskrivninger eller til
+genindvindingsværdi, såfremt denne er lavere.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktiverede udviklingsomkostninger afskrives lineært efter
+færdiggørelsen af udviklingsarbejdet over den vurderede
+økonomiske brugstid. Afskrivningsperioden udgør
+sædvanligvis 5 år og overstiger ikke 20 år.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Erhvervet goodwill måles til kostpris med fradrag af
+akkumulerede afskrivninger. Goodwill afskrives lineært over
+den vurderede økonomiske brugstid, der er vurderet til 5
+år.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Patenter og licenser måles til kostpris med fradrag af
+akkumulerede afskrivninger eller til genindvindingsværdien,
+hvor denne er lavere. Patenter afskrives over den resterende
+patentperiode, og licenser afskrives over aftaleperioden, dog
+maksimalt 8 år.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;(Udviklingsomkostninger og internt oparbejdede rettigheder
+indregnes i resultatopgørelsen som omkostninger i
+anskaffelsesåret.)&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktiver med en kostpris på under kr. 10.000 pr. enhed
+indregnes som omkostning i resultatopgørelsen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Fortjeneste og tab ved afhændelse af materielle
+anlægsaktiver opgøres som forskellen mellem salgspris med
+fradrag af salgsomkostninger og den regnskabsmæssige
+værdi på salgstidspunktet. Fortjeneste og tab indregnes i
+resultatopgørelsen som en særskilt regnskabspost.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Leasingkontrakter vedrørende materielle anlægsaktiver,
+hvor selskabet har alle væsentlige risici og fordele forbundet
+med ejendomsretten (finansiel leasing) indregnes i balancen som
+aktiver.  Aktiverne måles ved første indregning til
+opgjort kostpris svarende til dagværdien eller (hvis lavere)
+til nutidsværdien af de fremtidige leasingydelser. Ved
+beregningen af nutidsværdien anvendes leasingaftalens interne
+rentefod som diskonteringsfaktor eller en tilnærmet værdi
+for denne. Finansielt leasede aktiver afskrives som øvrige
+tilsvarende materielle anlægsaktiver.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Den kapitaliserede restleasingforpligtelse indregnes i balancen
+som en gældsforpligtelse, og leasingydelsens rentedel
+indregnes over kontraktens løbetid i
+resultatopgørelsen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Alle øvrige leasingkontrakter betragtes som operationel
+leasing. Ydelser i forbindelse med operationel leasing og
+øvrige lejeaftaler indregnes i resultatopgørelsen over
+kontraktens løbetid. Selskabets samlede forpligtelse
+vedrørende operationelle leasing- og lejeaftaler oplyses under
+eventuelposter.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Finansielle anlægsaktiver
+&lt;br/&gt; Kapitalandele i dattervirksomheder måles til kostpris.
+I tilfælde, hvor kostprisen overstiger
+nettorealisationsværdien, nedskrives til denne lavere
+værdi.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;(Kapitalandele i dattervirksomheder indregnes i balancen til den
+forholdsmæssige andel af virksomhedernes regnskabsmæssige
+indre værdi opgjort efter moderselskabets regnskabspraksis med
+fradrag eller tillæg af urealiserede koncerninterne avancer og
+tab og med tillæg eller fradrag af resterende værdi af
+positiv eller negativ goodwill opgjort efter
+overtagelsesmetoden.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Dattervirksomheder med negativ regnskabsmæssig værdi
+indregnes til nul kr. og et eventuelt tilgodehavende hos disse
+virksomheder nedskrives med moderselskabets andel af den negative
+indre værdi, i det omfang det vurderes uerholdeligt.
+Såfremt den regnskabsmæssige indre værdi overstiger
+tilgodehavender, indregnes det resterende beløb under hensatte
+forpligtelser i det omfang, modervirksomheden har en retlig eller
+faktisk forpligtelse til at dække dattervirksomhedens
+underbalance.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Nettoopskrivning af kapitalandele i dattervirksomheder
+overføres under egenkapital til reserve for nettoopskrivning
+efter indre værdis metode i det omfang, den
+regnskabsmæssige værdi overstiger
+anskaffelsesværdien med fradrag af afskrivninger på
+goodwill.
+&lt;br/&gt; Nyerhvervede eller nystiftede virksomheder indregnes i
+årsregnskabet fra anskaffelsestidspunktet. Solgte eller
+afviklede virksomheder indregnes frem til
+afståelsestidspunktet.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Fortjeneste eller tab ved afhændelse af dattervirksomheder
+opgøres som forskellen mellem afhændelsessummer og den
+regnskabsmæssige værdi af nettoaktiverne på
+salgstidspunktet inklusiv ikke afskrevet goodwill samt forventede
+omkostninger til salg eller afvikling. Fortjeneste og tab indregnes
+i resultatopgørelsen under finansielle poster.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Ved køb af nye dattervirksomheder anvendes
+overtagelsesmetoden, hvorefter de nytilkøbte virksomheders
+aktiver og forpligtelser måles til dagværdi på
+erhvervelsestidspunktet. Der hensættes til dækning af
+omkostninger ved besluttede omstruktureringer i den erhvervede
+virksomhed i forbindelse med købet. Der tages hensyn til
+skatteeffekten af de foretagne omvurderinger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Positive forskelsbeløb (goodwill) mellem
+anskaffelsesværdi og dagværdi af overtagne aktiver og
+forpligtelser, inklusiv hensatte forpligtelser til omstrukturering,
+indregnes under kapitalandele i tilknyttede virksomheder og
+afskrives over den vurderede økonomiske brugstid.
+Afskrivningsperioden udgør maksimalt 20 år. Den
+regnskabsmæssige værdi af goodwill vurderes løbende
+og nedskrives over resultatopgørelsen i de tilfælde, hvor
+den regnskabsmæssige værdi overstiger de forventede
+fremtidige nettoindtægter fra den virksomhed eller aktivitet,
+som goodwill er knyttet til.)&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Pantebrevsbeholdning, der omfatter pantebreve, der forventes
+beholdt til udløb, måles til amortiseret kostpris. Ved
+amortiseret kostpris for disse pantebreve forstås
+pantebrevenes resttilgodehavende optaget til kurs, der beregnes som
+kursværdien (dagsprisen) ved anskaffelsen med et
+tidsmæssigt beregnet tillæg af forskellen mellem denne
+kurs og indfrielseskurs.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Værdipapirer, der indgår i selskabets
+handelsbeholdning, måles til dagværdi
+(børskurs).&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Såvel realiserede som urealiserede kursreguleringer er
+indregnet i resultatopgørelsen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Varebeholdning
+&lt;br/&gt; Varebeholdninger måles til kostpris efter FIFO-metoden.
+I tilfælde, hvor nettorealisationsværdien er lavere end
+kostprisen, nedskrives til denne lavere værdi.
+Nettorealisationsværdi for varebeholdninger opgøres som
+salgspris med fradrag af færdiggørelsesomkostninger og
+omkostninger, der afholdes for at effektuere salget, og
+fastsættes under hensyntagen til omsættelighed, ukurans
+og udvikling i forventet salgspris.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Kostpris for handelsvarer samt råvarer og
+hjælpematerialer opgøres som anskaffelsespris med
+tillæg af hjemtagelsesomkostninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Kostpris for fremstillede færdigvarer samt varer under
+fremstilling omfatter kostpris for råvarer,
+hjælpematerialer,  direkte løn og direkte
+produktionsomkostninger uden tillæg af indirekte
+produktionsomkostninger.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;(Kostpris for fremstillede færdigvarer samt varer under
+fremstilling omfatter kostpris for råvarer,
+hjælpematerialer, direkte løn og indirekte
+produktionsomkostninger. Indirekte produktionsomkostninger
+indeholder indirekte materialer og løn samt vedligeholdelse af
+og afskrivning på de i produktionsprocessen benyttede
+maskiner, fabriksbygninger og udstyr, omkostninger til
+fabriksadministration og ledelse samt aktiverede
+udviklingsomkostninger vedrørende produkterne.)&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Tilgodehavender
+&lt;br/&gt; Tilgodehavender måles til amortiseret kostpris, der
+sædvanligvis svarer til nominel værdi, med fradrag af
+nedskrivning til imødegåelse af forventede tab
+(nettorealisationsværdi). Nedskrivninger foretages på
+grundlag af individuel vurdering af tilgodehavender, der overstiger
+kr. xxxx, og en nedskrivning på øvrige tilgodehavender
+baseret på selskabets erfaringer.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Igangværende arbejde for fremmed regning
+&lt;br/&gt; Igangværende arbejder for fremmed regning måles
+til salgsværdien af det udførte arbejde.
+Salgsværdien måles på baggrund af
+færdiggørelsesgraden på balancedagen og de samlede
+forventede indtægter på det enkelte igangværende
+arbejde.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Når salgsværdien på en entreprisekontrakt ikke
+kan opgøres pålideligt, måles salgsværdien til
+de medgåede omkostninger eller nettorealisationsværdien,
+såfremt denne er lavere.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;De enkelte igangværende arbejder indregnes i balancen under
+tilgodehavender eller gældsforpligtelser afhængig af
+nettoværdien af salgssummer med fradrag af
+aconto-faktureringer og forudbetalinger. Omkostninger i forbindelse
+med salgsarbejde og opnåelse af kontrakter indregnes i
+resultatopgørelsen i takt med, at de afholdes.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Periodeafgrænsningsposter
+&lt;br/&gt; Periodeafgrænsningsposter indregnet under aktiver
+omfatter afholdte udgifter vedrørende efterfølgende
+regnskabsår.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Andre værdipapirer og kapitalandele
+&lt;br/&gt; Værdipapirer og kapitalandele, indregnet under
+omsætningsaktiver, omfatter børsnoterede obligationer og
+aktier, der måles til dagværdi på balancedagen.
+Børsnoterede værdipapirer måles til børskurs.
+Ikke-børsnoterede værdipapirer måles til
+salgsværdi baseret på beregnet kapitalværdi.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Udbytte
+&lt;br/&gt; Udbytte, som forventes udbetalt for året, vises som en
+særskilt post under egenkapitalen. Foreslået udbytte
+indregnes som en forpligtelse på tidspunktet for vedtagelsen
+på generalforsamlingen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Hensatte forpligtelser
+&lt;br/&gt; Hensatte forpligtelser omfatter forventede omkostninger til
+garantiforpligtelser, tab på igangværende arbejder,
+omstruktureringer m.v.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Garantiforpligtelser omfatter forpligtelser til udbedring af
+arbejder inden for garantiperioden på 1-5 år. De hensatte
+forpligtelser måles og indregnes på baggrund af ledelsens
+erfaringer med garantiarbejde. Hensatte forpligtelser med forventet
+forfaldstid ud over 1 år fra balancedagen diskonteres med den
+gennemsnitlige obligationsrente.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Når det er sandsynligt, at de totale omkostninger
+overstiger de totale indtægter på et igangværende
+arbejde for fremmed regning, hensættes det samlede tab, der
+må påregnes på entreprisen. Hensættelsen
+indregnes som omkostning under 'Andre eksterne omkostninger'.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Skyldig skat og udskudt skat
+&lt;br/&gt; Aktuelle skatteforpligtelser og tilgodehavende aktuel skat
+indregnes i balancen som beregnet skat af årets skattepligtige
+indkomst reguleret for skat af tidligere års skattepligtige
+indkomster samt for betalte acontoskatter.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Udskudt skat måles efter den balanceorienterede
+gældsmetode af midlertidige forskelle mellem
+regnskabsmæssig og skattemæssig værdi af aktiver og
+forpligtelser. I de tilfælde, f.eks. vedrørende aktier,
+hvor opgørelsen af skatteværdien kan foretages efter
+alternative beskatningsregler, måles udskudt skat på
+grundlag af den planlagte anvendelse af aktivet henholdsvis
+afvikling af forpligtelsen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Udskudte skatteaktiver, herunder skatteværdien af
+fremførselsberettiget skattemæssigt underskud, måles
+til den værdi, hvortil aktivet forventes realiseres, enten ved
+udligning af skat af fremtidig indtjening eller ved modregning i
+udskudte skatteforpligtelser inden for samme juridiske
+skatteenhed.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Udskudt skat måles på grundlag af de skatteregler og
+skattesatser, der med balancedagens lovgivning vil være
+gældende, når den udskudte skat forventes udløst som
+aktuel skat. Ændring i udskudt skat som følge af
+ændringer i skattesatser indregnes i resultatopgørelsen.
+For indeværende år er anvendt en skattesats på
+30%.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Gældsforpligtelser
+&lt;br/&gt; Finansielle gældsforpligtelser indregnes ved
+låneoptagelse til det modtagne provenu med fradrag af afholdte
+transaktionsomkostninger. I den efterfølgende periode
+indregnes de finansielle forpligtelser til amortiseret kostpris
+svarende til den kapitaliserede værdi ved anvendelse af den
+effektive rente, således at forskellen mellem provenuet og den
+nominelle værdi indregnes i resultatopgørelsen over
+&lt;br/&gt; låneperioden.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;I finansielle forpligtelser indregnes tillige den kapitaliserede
+restleasingforpligtelse på finansielle leasingkontrakter.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Prioritetsgæld er således målt til amortiseret
+kostpris, der for kontantlån svarer til lånets
+restgæld. For obligationslån svarer amortiseret kostpris
+til en restgæld beregnet som lånets underliggende
+kontantværdi på lånoptagelsestidspunktet reguleret
+med en over afdragstiden foretaget afskrivning af lånets
+kursregulering på optagelsestidspunktet.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Andre gældsforpligtelser, som omfatter gæld til
+leverandører, tilknyttede virksomheder samt anden gæld,
+måles til amortiseret kostpris, hvilket sædvanligvis
+svarer til nominel værdi.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Periodeafgrænsningsposter
+&lt;br/&gt; Under periodeafgrænsningsposter indregnes modtagne
+betalinger vedrørende indtægter i de efterfølgende
+år.&lt;/p&gt;
+</fsa:DisclosureOfAccountingPolicies>
+  <fsa:Revenue basis:ancestor="treeGroup1" contextRef="duration_only" decimals="0" unitRef="DKK">1959274</fsa:Revenue>
+  <fsa:ExternalExpenses basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">1301000</fsa:ExternalExpenses>
+  <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">658274</fsa:GrossResult>
+  <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0" unitRef="DKK">216992</fsa:EmployeeBenefitsExpense>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0" unitRef="DKK">441282</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0" unitRef="DKK">441282</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0" unitRef="DKK">441282</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only" decimals="0" unitRef="DKK">441282</fsa:ProfitLoss>
+  <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0" unitRef="DKK">82339</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0" unitRef="DKK">82339</fsa:PropertyPlantAndEquipment>
+  <fsa:NoncurrentAssets basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">82339</fsa:NoncurrentAssets>
+  <fsa:ManufacturedGoodsAndGoodsForResale basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0" unitRef="DKK">150511</fsa:ManufacturedGoodsAndGoodsForResale>
+  <fsa:Inventories basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0" unitRef="DKK">150511</fsa:Inventories>
+  <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">239011</fsa:ShorttermTradeReceivables>
+  <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">239011</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only" decimals="0" unitRef="DKK">96221</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only" decimals="0" unitRef="DKK">485743</fsa:CurrentAssets>
+  <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only" decimals="0" unitRef="DKK">568082</fsa:Assets>
+  <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">125000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">441282</fsa:RetainedEarnings>
+  <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">566282</fsa:Equity>
+  <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">1800</fsa:ShorttermTradePayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">1800</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0" unitRef="DKK">1800</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">568082</fsa:LiabilitiesAndEquity>
+  <gsd:NameOfSubmittingEnterprise basis:ancestor="generelInfo" contextRef="duration_only">Jens Petersen</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">Meterbuen 41 c/o dk malerservice</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">2740 Skovlunde</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <cmn:TypeOfAuditorAssistance contextRef="duration_only">Ingen bistand</cmn:TypeOfAuditorAssistance>
+</xbrli:xbrl>

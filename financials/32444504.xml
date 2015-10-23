@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance"
+            xmlns:basis="http://xbrl.dcca.dk/Regnskab 2.0 Basis"
+            xmlns:fsa="http://xbrl.dcca.dk/fsa"
+            xmlns:arr="http://xbrl.dcca.dk/arr"
+            xmlns:xl="http://www.xbrl.org/2003/XLink"
+            xmlns:xhtml="http://www.w3.org/1999/xhtml"
+            xmlns:lnk="http://www.xbrl.org/2003/linkbase"
+            xmlns:ix="http://www.xbrl.org/2008/inlineXBRL"
+            xmlns:link="http://www.xbrl.org/2003/linkbase"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:cmn="http://xbrl.dcca.dk/cmn"
+            xmlns:dst="http://xbrl.dcca.dk/dst"
+            xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+            xmlns:gsd="http://xbrl.dcca.dk/gsd"
+            xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs"
+            xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+            xmlns:ref="http://www.xbrl.org/2006/ref"
+            xmlns:mrv="http://xbrl.dcca.dk/mrv"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:sob="http://xbrl.dcca.dk/sob"
+            xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"
+                  xlink:type="simple"/>
+   <xbrli:context id="duration_only">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2012-01-01</xbrli:startDate>
+         <xbrli:endDate>2012-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2012-01-01</xbrli:startDate>
+         <xbrli:endDate>2012-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="duration_auditorIdentifier_1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2012-01-01</xbrli:startDate>
+         <xbrli:endDate>2012-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+            <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="duration_only_previous">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2011-01-01</xbrli:startDate>
+         <xbrli:endDate>2011-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="duration_RetainedEarningsMember">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2012-01-01</xbrli:startDate>
+         <xbrli:endDate>2012-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="duration_RetainedEarningsMember_previous">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2011-01-01</xbrli:startDate>
+         <xbrli:endDate>2011-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="instant_only">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2012-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="instant_only_previous">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">32444504</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2011-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="DKK">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:ancestor="generelInfo" basis:version="2" contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">2013-06-13</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">Lars Ejlerskov Nielsen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">MALER LENE CHRISTIANSFELD ApS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName basis:ancestor="generelInfo" contextRef="duration_only">Damgårdsparken</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier basis:ancestor="generelInfo" contextRef="duration_only">18</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier basis:ancestor="generelInfo" contextRef="duration_only">6070</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName basis:ancestor="generelInfo" contextRef="duration_only">Christiansfeld</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:TelephoneNumberOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">24407713</gsd:TelephoneNumberOfReportingEntity>
+   <gsd:EmailOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">info@maler-lene.dk</gsd:EmailOfReportingEntity>
+   <gsd:IdentificationNumberCvrOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">32444504</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate basis:ancestor="generelInfo" contextRef="duration_only">2012-01-01</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate basis:ancestor="generelInfo" contextRef="duration_only">2012-12-31</gsd:ReportingPeriodEndDate>
+   <sob:StatementByExecutiveAndSupervisoryBoards basis:ancestor="statementByExecutive" contextRef="duration_only">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen har dags dato aflagt Årsrapporten for 1. januar
+- 31. december 2011
+&lt;br/&gt; for Maler Lene Christiansfeld ApS&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;br/&gt; Årsrapporten er aflagt i overensstemmelse med
+årsregnskabsloven.
+&lt;br/&gt;  &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Vi anser den valgte regnskabspraksis for hensigtsmæssig,
+således at Årsrapporten giver
+&lt;br/&gt; et retvisende billede af selskabets aktiver og passiver,
+finansielle stilling samt resultat.
+&lt;br/&gt;  &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten indstilles til generalforsamlingens
+godkendelse.&lt;/p&gt;
+</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement basis:ancestor="statementByExecutive" contextRef="duration_only">Christiansfeld</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport basis:ancestor="statementByExecutive" contextRef="duration_only">2013-06-12</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract"
+                                               contextRef="duration_memberOfExecutiveBoardIdentifier_1">Preben Ryan Lydiksen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption basis:ancestor="statementByExecutive" contextRef="duration_only">Selskabet har fravalgt revision</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+   <arr:AuditorsReportsOtherReports basis:ancestor="revision" contextRef="duration_only">Revisors erklæring om regnskabsmæssig assistance</arr:AuditorsReportsOtherReports>
+   <arr:AddresseeOfAuditorsReportOnOtherReport basis:ancestor="revision" contextRef="duration_only">På grundlag af selskabets bogføring og øvrige oplysninger modtaget fra selskabets ledelse har vi ydet
+&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;assistance med opstilling af årsrapporten for Megabyg ApS for regnskabsåret 2012. Årsregnskabet
+&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;udarbejdes efter årsregnskabsloven.
+&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;
+&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Ledelsen har ansvaret for årsrapporten.</arr:AddresseeOfAuditorsReportOnOtherReport>
+   <arr:DescriptionOfOtherEngagement basis:ancestor="revision" contextRef="duration_only">Vi har tilrettelagt og udført vores arbejde i overensstemmelse med den danske revisionsstandard om
+&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;assistance med regnskabsopstilling. Vi har ikke revideret eller udført review af årsrapporten og udtrykker
+&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;derfor ikke nogen grad af sikkerhed derom.</arr:DescriptionOfOtherEngagement>
+   <arr:SignatureOfAuditorsPlace basis:ancestor="revision" contextRef="duration_only">Kolding</arr:SignatureOfAuditorsPlace>
+   <arr:SignatureOfAuditorsDate basis:ancestor="revision" contextRef="duration_only">2013-06-12</arr:SignatureOfAuditorsDate>
+   <cmn:NameAndSurnameOfAuditor basis:ancestor="DetailsOnSignatureAuditorsAbstract"
+                                contextRef="duration_auditorIdentifier_1">Lars Ejlerskov Nielsen</cmn:NameAndSurnameOfAuditor>
+   <cmn:DescriptionOfAuditor basis:ancestor="DetailsOnSignatureAuditorsAbstract"
+                             contextRef="duration_auditorIdentifier_1">Økonomidirektør</cmn:DescriptionOfAuditor>
+   <cmn:NameOfAuditFirm basis:ancestor="DetailsOnSignatureAuditorsAbstract"
+                        contextRef="duration_auditorIdentifier_1">XY Algebra ApS</cmn:NameOfAuditFirm>
+   <mrv:ManagementsReview basis:ancestor="ledelsesberetning" contextRef="duration_only">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Hovedaktiviteter&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets formål er at drive malervirksomhed.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Udviklingen i aktiviteter og økonomiske forhold&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årets resultat anses for ikke tilfredsstillende.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Begivenheder efter regnskabets afslutning&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabet har tabt mere end halvdelen af anpartskapitalen og
+dermed omfattet af kapitalbestemmelsen i selskabslovens § 119.
+Selskabskapitalen forventes reetableret ved egen indtjening samt
+kapitalindskud i løbet af de kommende år
+&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Forventninger til 2013&lt;/strong&gt;
+&lt;br/&gt; Der forventes et positivt resultat.
+&lt;br/&gt;  &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Fravalg af revision&lt;/strong&gt;
+&lt;br/&gt; Selskabet har valgt at fravælge revision.&lt;/p&gt;
+</mrv:ManagementsReview>
+   <fsa:InformationOnReportingClassOfEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies basis:ancestor="regnskabspraksis" contextRef="duration_only">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med
+årsregnskabslovens bestemmelser for Regnskabsklasse B.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Nettoomsætning&lt;/strong&gt;
+&lt;br/&gt; Nettomsætning ved salg af varer og ydelser indregnes i
+resultatopgørelsen, når risikoovergang til køber har
+fundet sted inden årets udgang, og hvis indtægten kan
+opgøres pålideligt og forventes modtaget.
+&lt;br/&gt; Nettoomsætningen indregnes ekskl. moms og afgifter
+opkrævet på vegne af tredjepart. Alle former for afgivne
+rabatter indregnes i nettoomsætningen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Andre eksterne omkostninger&lt;/strong&gt;
+&lt;br/&gt; Andre eksterne omkostninger omfatter omkostninger til
+distribution, salg, reklame,
+&lt;br/&gt; administration, lokaler, tab på debitorer m.v.
+&lt;br/&gt;  &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Finansielle indtægter og omkostninger&lt;/strong&gt;
+&lt;br/&gt; Finansielle indtægter og omkostninger indeholder
+renter, realiserede og urealiserede
+&lt;br/&gt; kursgevinster og -tab vedrørende værdipapirer,
+gæld og transaktioner i fremmed valuta
+&lt;br/&gt; samt tillæg og godtgørelser under
+acontoskatteordningen m.v.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Skat af årets resultat&lt;/strong&gt;
+&lt;br/&gt; Årets skat, der består af årets aktuelle skat
+og forskydning i udskudt skat, indregnes i resultat-
+&lt;br/&gt; opgørelsen med den del, der kan henføres til
+årets resultat, og direkte op egenkapitalen med den
+&lt;br/&gt; del, der kan henføres til posteringer direkte på
+egenkapitalen. Den andel af den resultatførte
+&lt;br/&gt; skat, der knytter sig til årets ekstraordinære
+resultat henføres hertil, mens den resterende del
+&lt;br/&gt; henføres til årets ordinære resultat.&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Materielle anlægsaktiver&lt;/strong&gt;
+&lt;br/&gt; Materielle anlægsaktiver er medtaget til
+anskaffelsessummer fratrukken afskrivninger.
+&lt;br/&gt;  &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Tilgodehavender&lt;/strong&gt;
+&lt;br/&gt; Tilgodehavender måles til amortiseret kostpris. Der
+nedskrives til imødegåelse af tab.
+&lt;br/&gt;  &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Gældsforpligtelser&lt;/strong&gt;
+&lt;br/&gt; Finansielle gældsforpligtelser indregnes ved
+lånoptagelse til det modtagne provenu efter fradrag af
+afholdte transaktionsomkostninger. Efterfølgende måles
+til amortiseret kostpris.
+&lt;br/&gt; Øvrige gældsforpligtelser måles til
+nettorealisationsværdi.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+</fsa:DisclosureOfAccountingPolicies>
+   <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0"
+                    unitRef="DKK">323952</fsa:GrossResult>
+   <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only_previous" decimals="0"
+                    unitRef="DKK">518008</fsa:GrossResult>
+   <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
+                                unitRef="DKK">331206</fsa:EmployeeBenefitsExpense>
+   <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only_previous" decimals="0"
+                                unitRef="DKK">226419</fsa:EmployeeBenefitsExpense>
+   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss basis:ancestor="treeGroup3" contextRef="duration_only_previous" decimals="0"
+                                                                                                                                 unitRef="DKK">48000</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
+                                                  unitRef="DKK">-7254</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only_previous" decimals="0"
+                                                  unitRef="DKK">339589</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:OtherFinanceExpenses basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0"
+                             unitRef="DKK">23923</fsa:OtherFinanceExpenses>
+   <fsa:OtherFinanceExpenses basis:ancestor="treeGroup4" contextRef="duration_only_previous" decimals="0"
+                             unitRef="DKK">26574</fsa:OtherFinanceExpenses>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0"
+                                                  unitRef="DKK">-31177</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only_previous" decimals="0"
+                                                  unitRef="DKK">313015</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0"
+                                         unitRef="DKK">-31177</fsa:ExtraordinaryProfitLossBeforeTax>
+   <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only_previous" decimals="0"
+                                         unitRef="DKK">313015</fsa:ExtraordinaryProfitLossBeforeTax>
+   <fsa:TaxExpense basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0"
+                   unitRef="DKK">-7794</fsa:TaxExpense>
+   <fsa:TaxExpense basis:ancestor="treeGroup6" contextRef="duration_only_previous" decimals="0"
+                   unitRef="DKK">78200</fsa:TaxExpense>
+   <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only" decimals="0"
+                   unitRef="DKK">-23383</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only_previous" decimals="0"
+                   unitRef="DKK">234815</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_RetainedEarningsMember"
+                   decimals="0"
+                   unitRef="DKK">-23383</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup8"
+                   contextRef="duration_RetainedEarningsMember_previous"
+                   decimals="0"
+                   unitRef="DKK">234815</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_only" decimals="0"
+                   unitRef="DKK">-23383</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_only_previous" decimals="0"
+                   unitRef="DKK">234815</fsa:ProfitLoss>
+   <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
+                                          unitRef="DKK">30000</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
+                                          unitRef="DKK">30000</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:LeaseholdImprovements basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
+                              unitRef="DKK">39798</fsa:LeaseholdImprovements>
+   <fsa:LeaseholdImprovements basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
+                              unitRef="DKK">39798</fsa:LeaseholdImprovements>
+   <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
+                                  unitRef="DKK">69798</fsa:PropertyPlantAndEquipment>
+   <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
+                                  unitRef="DKK">69798</fsa:PropertyPlantAndEquipment>
+   <fsa:NoncurrentAssets basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
+                         unitRef="DKK">69798</fsa:NoncurrentAssets>
+   <fsa:ManufacturedGoodsAndGoodsForResale basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0"
+                                           unitRef="DKK">190000</fsa:ManufacturedGoodsAndGoodsForResale>
+   <fsa:ManufacturedGoodsAndGoodsForResale basis:ancestor="treeGroup5" contextRef="instant_only_previous" decimals="0"
+                                           unitRef="DKK">190000</fsa:ManufacturedGoodsAndGoodsForResale>
+   <fsa:Inventories basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0"
+                    unitRef="DKK">190000</fsa:Inventories>
+   <fsa:Inventories basis:ancestor="treeGroup5" contextRef="instant_only_previous" decimals="0"
+                    unitRef="DKK">190000</fsa:Inventories>
+   <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
+                                  unitRef="DKK">1200</fsa:ShorttermTradeReceivables>
+   <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
+                                  unitRef="DKK">43958</fsa:ShorttermTradeReceivables>
+   <fsa:CurrentDeferredTaxAssets basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
+                                 unitRef="DKK">19650</fsa:CurrentDeferredTaxAssets>
+   <fsa:CurrentDeferredTaxAssets basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
+                                 unitRef="DKK">19650</fsa:CurrentDeferredTaxAssets>
+   <fsa:OtherShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
+                                  unitRef="DKK">15180</fsa:OtherShorttermReceivables>
+   <fsa:OtherShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
+                                  unitRef="DKK">15180</fsa:OtherShorttermReceivables>
+   <fsa:DeferredIncomeAssets basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
+                             unitRef="DKK">12400</fsa:DeferredIncomeAssets>
+   <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
+                             unitRef="DKK">36030</fsa:ShorttermReceivables>
+   <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
+                             unitRef="DKK">278188</fsa:ShorttermReceivables>
+   <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only" decimals="0"
+                               unitRef="DKK">26910</fsa:CashAndCashEquivalents>
+   <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only_previous" decimals="0"
+                               unitRef="DKK">29910</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only" decimals="0"
+                      unitRef="DKK">252940</fsa:CurrentAssets>
+   <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only_previous" decimals="0"
+                      unitRef="DKK">308098</fsa:CurrentAssets>
+   <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only" decimals="0"
+               unitRef="DKK">322738</fsa:Assets>
+   <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only_previous" decimals="0"
+               unitRef="DKK">377896</fsa:Assets>
+   <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
+                           unitRef="DKK">125000</fsa:ContributedCapital>
+   <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only_previous" decimals="0"
+                           unitRef="DKK">125000</fsa:ContributedCapital>
+   <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
+                         unitRef="DKK">-113561</fsa:RetainedEarnings>
+   <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only_previous" decimals="0"
+                         unitRef="DKK">-90178</fsa:RetainedEarnings>
+   <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
+               unitRef="DKK">11439</fsa:Equity>
+   <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only_previous" decimals="0"
+               unitRef="DKK">34822</fsa:Equity>
+   <fsa:ShorttermDebtToBanks basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
+                             unitRef="DKK">165976</fsa:ShorttermDebtToBanks>
+   <fsa:ShorttermDebtToBanks basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
+                             unitRef="DKK">255620</fsa:ShorttermDebtToBanks>
+   <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
+                               unitRef="DKK">29193</fsa:ShorttermTradePayables>
+   <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
+                               unitRef="DKK">24456</fsa:ShorttermTradePayables>
+   <fsa:OtherShorttermPayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
+                               unitRef="DKK">116130</fsa:OtherShorttermPayables>
+   <fsa:OtherShorttermPayables basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
+                               unitRef="DKK">62998</fsa:OtherShorttermPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
+                                                unitRef="DKK">311299</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
+                                                unitRef="DKK">343074</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0"
+                                       unitRef="DKK">311299</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only_previous" decimals="0"
+                                       unitRef="DKK">343074</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
+                             unitRef="DKK">322738</fsa:LiabilitiesAndEquity>
+   <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
+                             unitRef="DKK">377896</fsa:LiabilitiesAndEquity>
+   <fsa:DisclosureOfEmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only">
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border: 0px currentColor; width: 650px; border-collapse: collapse;"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border: 0px currentColor; width: 60%;"&gt; &lt;/th&gt;
+      &lt;th style="border: 0px currentColor; width: 25%; text-align: right; font-weight: bold;"&gt;2012&lt;/th&gt;
+      &lt;th style="border: 0px currentColor; width: 15%; text-align: right; font-weight: bold;"&gt;2011&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="text-align: right; padding-bottom: 10px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+      &lt;th style="text-align: right; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Løn og gager&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;283.198&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;199.575&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pensionsbidrag&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;34.344&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;22.896&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andre omkostninger til social sikring&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;13.644&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;3.948&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;331.206&lt;/td&gt;
+      &lt;td style="text-align: right; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;226.419&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+</fsa:DisclosureOfEmployeeBenefitsExpense>
+   <fsa:DisclosureOfDepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss basis:ancestor="treeGroup3" contextRef="duration_only">
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border: 0px currentColor; width: 650px; border-collapse: collapse;"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border: 0px currentColor; width: 60%;"&gt; &lt;/th&gt;
+      &lt;th style="border: 0px currentColor; width: 25%; text-align: right; font-weight: bold;"&gt;2012&lt;/th&gt;
+      &lt;th style="border: 0px currentColor; width: 15%; text-align: right; font-weight: bold;"&gt;2011&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="text-align: right; padding-bottom: 10px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+      &lt;th style="text-align: right; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bygninger&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Produktionsanlæg og maskiner&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andre anlæg, driftsmateriel og inventar&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fortjeneste ved salg af materielle
+      anlægsaktiver&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;-48.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;-48.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+</fsa:DisclosureOfDepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+   <fsa:DisclosureOfTaxExpenses basis:ancestor="treeGroup6" contextRef="duration_only">
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border: 0px currentColor; width: 650px; border-collapse: collapse;"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border: 0px currentColor; width: 60%;"&gt; &lt;/th&gt;
+      &lt;th style="border: 0px currentColor; width: 25%; text-align: right; font-weight: bold;"&gt;2012&lt;/th&gt;
+      &lt;th style="border: 0px currentColor; width: 15%; text-align: right; font-weight: bold;"&gt;2011&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="text-align: right; padding-bottom: 10px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+      &lt;th style="text-align: right; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Aktuel skat&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;-7.794&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;78.200&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ændring af udskudt skat&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Regulering vedrørende tidligere år&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;-7.794&lt;/td&gt;
+      &lt;td style="text-align: right; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;78.200&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+</fsa:DisclosureOfTaxExpenses>
+   <fsa:DisclosureOfPropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="duration_only">
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border: 0pt currentColor; width: 650px; border-collapse: collapse;"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border: 0pt currentColor; width: 55%;"&gt; &lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 15%; text-align: right; font-weight: bold;"&gt;Driftmateriel&lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 15%; text-align: right; font-weight: bold;"&gt;Andre
+      Anlæg mv.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="text-align: right; padding-bottom: 10px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+      &lt;th style="text-align: right; padding-bottom: 10px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kostpris primo&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;30.000&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;39.798&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tilgang&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Afgang&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight: bold;"&gt;Kostpris ultimo&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;30.000&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;39.798&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Af- og nedskrivning primo&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Årets afskrivning&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tilbageførsel ved afgang&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight: bold;"&gt;Af- og nedskrivning
+      ultimo&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+      &lt;td style="text-align: right;"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight: bold;"&gt;Regnskabsmæssig
+      værdi ultimo&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;30.000&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;"&gt;39.798&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td/&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</fsa:DisclosureOfPropertyPlantAndEquipment>
+   <fsa:DisclosureOfEquity basis:ancestor="treeGroup1" contextRef="duration_only">
+&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border: 0pt currentColor; width: 650px; border-collapse: collapse;"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border: 0pt currentColor; width: 30%;"&gt; &lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 14%; text-align: right; font-weight: bold;"&gt;Virksomheds-kapital&lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 14%; text-align: right; font-weight: bold;"&gt;Overført
+      resultat&lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 14%; text-align: right; font-weight: bold;"&gt;Ialt&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th style="border: 0pt currentColor; width: 30%;"&gt; &lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 14%; text-align: right; font-weight: bold;"&gt;kr.&lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 14%; text-align: right; font-weight: bold;"&gt;kr.&lt;/th&gt;
+      &lt;th style="border: 0pt currentColor; width: 14%; text-align: right; font-weight: bold;"&gt;kr.&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Saldo primo&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;125.000&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;-90.178&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;34.822&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Årets resultat&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;0&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;-23.383&lt;/td&gt;
+      &lt;td style="text-align: right;"&gt;-23.383&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="font-weight: bold;"&gt;Egenkapital ultimo&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;125.000&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;-113.561&lt;/td&gt;
+      &lt;td style="text-align: right; font-weight: bold; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;"&gt;11.439&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+</fsa:DisclosureOfEquity>
+   <fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters basis:ancestor="noter" contextRef="duration_only">
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabet har tabt mere end halvdelen af anpartskapitalen og
+dermed omfattet af kapitalbestemmelsen i
+&lt;br/&gt; selskabslovens § 119. Selskabskapitalen forventes
+reetableret ved egen indtjening samt kapitalindskud i
+&lt;br/&gt; løbet af de kommende år.&lt;/p&gt;
+</fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters>
+   <gsd:NameOfSubmittingEnterprise basis:ancestor="generelInfo" contextRef="duration_only">Lars Ejlerskov Nielsen</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">Vejrupsgade 30 2.</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">6000 Kolding</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

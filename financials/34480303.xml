@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Dette XBRL instansdokument er genereret af IT Revisor (5.4.11.1) - http://www.focus-it.dk/it-revisor.aspx-->
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi">
+  <link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetReportFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd" />
+  <context id="Per01012013_31122013">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2013-01-01</startDate>
+      <endDate>2013-12-31</endDate>
+    </period>
+  </context>
+  <context id="Per01012012_31122012">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2012-01-01</startDate>
+      <endDate>2012-12-31</endDate>
+    </period>
+  </context>
+  <context id="Per01012013_31122013-Instant">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <instant>2013-12-31</instant>
+    </period>
+  </context>
+  <context id="Per01012012_31122012-Instant">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <instant>2012-12-31</instant>
+    </period>
+  </context>
+  <context id="Per01012013_31122013_0_Identifikation_af_medlem_af_direktionen">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2013-01-01</startDate>
+      <endDate>2013-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="Per01012013_31122013_1_Identifikation_af_revisor">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2013-01-01</startDate>
+      <endDate>2013-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="Per01012013_31122013_2_Foreslået_udbytte_indregnet_under_egenkapitalen">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2013-01-01</startDate>
+      <endDate>2013-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="Per01012013_31122013_3_Overført_resultat">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2013-01-01</startDate>
+      <endDate>2013-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="Per01012012_31122012_0_Foreslået_udbytte_indregnet_under_egenkapitalen">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2012-01-01</startDate>
+      <endDate>2012-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="Per01012012_31122012_1_Overført_resultat">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">34480303</identifier>
+    </entity>
+    <period>
+      <startDate>2012-01-01</startDate>
+      <endDate>2012-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <unit id="DKK">
+    <measure>iso4217:DKK</measure>
+  </unit>
+  <unit id="shares">
+    <measure>shares</measure>
+  </unit>
+  <unit id="pure">
+    <measure>pure</measure>
+  </unit>
+  <gsd:DateOfGeneralMeeting contextRef="Per01012013_31122013">2014-05-27</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="Per01012013_31122013">Morten Junior Vinzentsen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <arr:SignatureOfAuditorsPlace contextRef="Per01012013_31122013">Køge</arr:SignatureOfAuditorsPlace>
+  <arr:SignatureOfAuditorsDate contextRef="Per01012013_31122013">2014-04-25</arr:SignatureOfAuditorsDate>
+  <sob:PlaceOfSignatureOfStatement contextRef="Per01012013_31122013">Køge</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="Per01012013_31122013">2014-04-25</sob:DateOfApprovalOfAnnualReport>
+  <fsa:ClassOfReportingEntity contextRef="Per01012013_31122013">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:SelectedElementsFromReportingClassC contextRef="Per01012013_31122013">false</fsa:SelectedElementsFromReportingClassC>
+  <fsa:SelectedElementsFromReportingClassD contextRef="Per01012013_31122013">false</fsa:SelectedElementsFromReportingClassD>
+  <cmn:TypeOfAuditorAssistance contextRef="Per01012013_31122013">Revisionspåtegning</cmn:TypeOfAuditorAssistance>
+  <gsd:InformationOnTypeOfSubmittedReport contextRef="Per01012013_31122013">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="Per01012013_31122013">34480303</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:NameOfReportingEntity contextRef="Per01012013_31122013">CV ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="Per01012013_31122013">Stevnsvej 12</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="Per01012013_31122013">4600</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="Per01012013_31122013">Køge</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:RegisteredOfficeOfReportingEntity contextRef="Per01012013_31122013">Stevns Kommune</gsd:RegisteredOfficeOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="Per01012013_31122013">2013-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="Per01012013_31122013">2013-12-31</gsd:ReportingPeriodEndDate>
+  <gsd:NameOfSubmittingEnterprise contextRef="Per01012013_31122013">Wind Revision, Registreret Revisionsanpartsselskab</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="Per01012013_31122013">Søndre Alle 43 C</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="Per01012013_31122013">4600, Køge</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <sob:IdentificationOfApprovedAnnualReport contextRef="Per01012013_31122013">Direktionen har dags dato behandlet og godkendt årsrapporten for perioden 1. januar - 31. december 2013 for CV ApS.</sob:IdentificationOfApprovedAnnualReport>
+  <sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="Per01012013_31122013">Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.</sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement>
+  <sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="Per01012013_31122013">Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 31. december 2013 samt af resultatet af selskabets aktiviteter for perioden 1. januar - 31. december 2013.</sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults>
+  <sob:ManagementsStatementAboutManagementsReview contextRef="Per01012013_31122013">Ledelsesberetningen indeholder efter vores opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.</sob:ManagementsStatementAboutManagementsReview>
+  <sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="Per01012013_31122013">Årsrapporten indstilles til generalforsamlingens godkendelse.</sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting>
+  <arr:AddresseeOfAuditorsReportOnReviewOfFinancialStatements contextRef="Per01012013_31122013">Til kapitalejerne af CV ApS</arr:AddresseeOfAuditorsReportOnReviewOfFinancialStatements>
+  <arr:IdentificationOfAuditedFinancialStatements contextRef="Per01012013_31122013">Vi har revideret årsregnskabet for CV ApS for perioden 1. januar - 31. december 2013, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.</arr:IdentificationOfAuditedFinancialStatements>
+  <arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements contextRef="Per01012013_31122013">Ledelsens ansvar for årsregnskabet&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Selskabets ledelse har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, uanset om denne skyldes besvigelser eller fejl.</arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements>
+  <arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed contextRef="Per01012013_31122013">Revisors ansvar&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Vores ansvar er at udtrykke en konklusion om årsregnskabet på grundlag af vores revision. Vi har udført revisionen i overensstemmelse med internationale standarder om revision og yderligere krav ifølge dansk revisorlovgivning. Dette kræver, at vi overholder etiske krav samt planlægger og udfører revisionen for at opnå høj grad af sikkerhed for, om årsregnskabet er uden væsentlig fejlinformation.En revision omfatter udførelse af revisionshandlinger for at opnå revisionsbevis for beløb og oplysninger i årsregnskabet. De valgte revisionshandlinger afhænger af revisors vurdering, herunder vurdering af risici for væsentlig fejlinformation i årsregnskabet, uanset om denne skyldes besvigelser eller fejl. Ved risikovurderingen overvejer revisor intern kontrol, der er relevant for selskabets udarbejdelse af et årsregnskab, der giver et retvisende billede. Formålet hermed er at udforme revisionshandlinger, der er passende efter omstændighederne, men ikke at udtrykke en konklusion om effektiviteten af selskabets interne kontrol. En revision omfatter endvidere vurdering af, om ledelsens valg af regnskabspraksis er passende, om ledelsens regnskabsmæssige skøn er rimelige samt den samlede præsentation af årsregnskabet.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet som grundlag for vor konklusion.Revisionen har ikke givet anledning til forbehold.</arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed>
+  <arr:OpinionOnAuditedFinancialStatements contextRef="Per01012013_31122013">Konklusion&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Det er vores opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 31. december 2013 samt af resultatet af selskabets aktiviteter for perioden 1. januar - 31. december 2013 i overensstemmelse med årsregnskabsloven.</arr:OpinionOnAuditedFinancialStatements>
+  <arr:AuditorsReportsAccordingToOtherLegislationAndRegulation contextRef="Per01012013_31122013">Erklæring i henhold til anden lovgivning og øvrig regulering</arr:AuditorsReportsAccordingToOtherLegislationAndRegulation>
+  <arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="Per01012013_31122013">Udtalelse om ledelsesberetningen&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Vi har i henhold til årsregnskabsloven gennemlæst ledelsesberetningen. Vi har ikke foretaget yderligere handlinger i tillæg til den udførte revision af årsregnskabet. Det er på denne baggrund vores opfattelse, at oplysningerne i ledelsesberetningen er i overensstemmelse med årsregnskabet.</arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements>
+  <mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="Per01012013_31122013">Selskabets hovedaktivitet&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Selskabets hovedaktiviteter har i lighed med tidligere år bestået af at drive bygge- og anlægsvirksomhed samt anden efter direktionens skøn i forbindelse hermed stående virksomhed.</mrv:DescriptionOfPrimaryActivitiesOfEntity>
+  <mrv:DescriptionOfAnyUnusualMattersAffectingRecognitionOrMeasurement contextRef="Per01012013_31122013">Usædvanlige forhold&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Selskabet har fortsat sine normale driftsaktiviteter. Der har ikke været enkeltstående begivenheder i regnskabsåret, som er af så væsentlig karakter, at det kræver omtale i ledelsesberetningen.</mrv:DescriptionOfAnyUnusualMattersAffectingRecognitionOrMeasurement>
+  <mrv:DescriptionOfAnyUncertaintyConnectedWithRecognitionOrMeasurement contextRef="Per01012013_31122013">Usikkerhed ved indregning og måling&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Der har ikke været usikkerheder vedrørende indregning eller måling i årsrapporten.</mrv:DescriptionOfAnyUncertaintyConnectedWithRecognitionOrMeasurement>
+  <mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="Per01012013_31122013">Udviklingen i selskabets aktiviteter og økonomiske forhold&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Ledelsen finder årets resultat utilfredsstillende.</mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs>
+  <mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="Per01012013_31122013">Betydningsfulde hændelser indtruffet efter statusdag&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil kunne påvirke selskabets finansielle stilling.</mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod>
+  <fsa:InformationOnReportingClassOfEntity contextRef="Per01012013_31122013">GENERELTÅrsregnskabet for CV ApS for 2013 er udarbejdet i overensstemmelse med årsregnskabslovens bestemmelser for selskaber i regnskabsklasse B.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Årsregnskabet er aflagt efter samme regnskabspraksis som sidste år og aflægges i danske kroner.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="Per01012013_31122013">Generelt om indregning og måling&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Regnskabet er udarbejdet med udgangspunkt i det historiske kostprisprincip.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Indtægter indregnes i resultatopgørelsen i takt med at de indtjenes. Herudover indregnes værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller amortiseret kostpris. Endvidere indregnes i resultatopgørelsen alle omkostninger, der er afholdt for at opnå årets indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har været indregnet i resultatopgørelsen.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Aktiver indregnes i balancen, når det er sandsynligt at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer, inden årsregnskabet aflægges, og som be- eller afkræfter forhold, der eksisterer på balancedagen.</fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems contextRef="Per01012013_31122013">RESULTATOPGØRELSEN&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;GenereltMed henvisning til årsregnskabslovens § 32 er visse indtægter og omkostninger sammendraget i regnskabsposten bruttofortjeneste.Bruttofortjeneste Bruttofortjenesten består af sammentrækning af regnskabsposterne ”nettoomsætning, ændring i lagre af færdigvarer, varer under fremstilling og handelsvarer, andre driftsindtægter, omkostninger til råvarer og hjælpematerialer samt andre eksterne omkostninger”.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue contextRef="Per01012013_31122013">Nettoomsætning&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Nettoomsætningen ved salg af handelsvarer og færdigvarer indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden årets udgang. Nettoomsætningen indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfRevenue>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales contextRef="Per01012013_31122013">Omkostninger til råvarer og hjælpematerialerOmkostninger til råvarer og hjælpematerialer omfatter varekøb med fradrag af rabatter samt årets forskydning i varebeholdningerne.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCostOfSales>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses contextRef="Per01012013_31122013">Andre eksterne omkostningerAndre eksterne omkostninger omfatter omkostninger til salg, reklame, administration, lokaler, tab på debitorer  mv.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense contextRef="Per01012013_31122013">Personaleomkostninger&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Personaleomkostninger omfatter lønninger og øvrige lønrelaterede omkostninger, herunder sygedagpenge til virksomhedens ansatte med fradrag af lønrefusioner fra det offentlige.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses contextRef="Per01012013_31122013">Finansielle indtægter og omkostningerFinansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle poster omfatter renteindtægter og -omkostninger samt tillæg og godtgørelser under acontoskatteordningen mv.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="Per01012013_31122013">Skat af årets resultatÅrets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfAssetsAndLiabilities contextRef="Per01012013_31122013">BALANCEN</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfAssetsAndLiabilities>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment contextRef="Per01012013_31122013">Materielle anlægsaktiver&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Materielle anlægsaktiver måles til kostpris med fradrag af akkumulerede af- og nedskrivninger.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Afskrivningsgrundlaget er kostpris med fradrag af forventet restværdi efter afsluttet brugstid.Kostprisen omfatter anskaffelsesprisen samt omkostninger direkte tilknyttet anskaffelsen indtil det tidspunkt, hvor aktivet er klar til at blive taget i brug. For egenfremstillede aktiver omfatter kostprisen omkostninger til materialer, komponenter, underleverandører, direkte lønforbrug samt indirekte produktionsomkostninger. Der foretages lineære afskrivninger baseret på følgende vurdering af aktivernes forventede brugstider:&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;BrugstidAndre anlæg, driftsmateriel og inventar3 år&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Fortjeneste eller tab ved afhændelse af materielle anlægsaktiver opgøres som forskellen mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige værdi på salgstidspunktet. Fortjeneste eller tab indregnes i resultatopgørelsen under andre driftsindtægter/andre driftsomkostninger.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments contextRef="Per01012013_31122013">Finansielle anlægsaktiver&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Deposita&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Deposita måles til anskaffelsespris.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfInvestments>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="Per01012013_31122013">TilgodehavenderTilgodehavender måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi. Værdien reduceres med nedskrivning til imødegåelse af forventede tab.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets contextRef="Per01012013_31122013">PeriodeafgrænsningsposterPeriodeafgrænsningsposter indregnet under aktiver omfatter afholdte omkostninger vedrørende efterfølgende regnskabsår.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax contextRef="Per01012013_31122013">Selskabsskat og udskudt skatAktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.Udskudt skat måles efter den balanceorienterede gældsmetode af midlertidige forskelle mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser. I de tilfælde, f.eks. vedrørende aktier, hvor opgørelse af skatteværdien kan foretages efter alternative beskatningsregler, måles udskudt skat på grundlag af den planlagte anvendelse af aktivet henholdsvis afvikling af forpligtelsen.Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser inden for samme juridiske skatteenhed. Eventuelle udskudte nettoskatteaktiver måles til nettorealisationsværdi.&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Selskabsskatteprocenten nedsættes gradvist fra 25% til 22% i indkomstårene 2014 – 2016. Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. For indeværende år er anvendt en skattesats på 24,5%.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="Per01012013_31122013">Gældsforpligtelser&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Andre gældsforpligtelser, som omfatter gæld til leverandører, tilknyttede og associerede virksomheder samt anden gæld, måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions>
+  <fsa:GrossProfitLoss contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">368587</fsa:GrossProfitLoss>
+  <fsa:EmployeeBenefitsExpense contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">585420</fsa:EmployeeBenefitsExpense>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">16195</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">-233028</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:RestOfOtherFinanceExpenses contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">1283</fsa:RestOfOtherFinanceExpenses>
+  <fsa:TaxExpense contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">-57285</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="Per01012013_31122013" decimals="0" unitRef="DKK">-177026</fsa:ProfitLoss>
+  <fsa:DisclosureOfEmployeeBenefitsExpense contextRef="Per01012013_31122013">1 Personaleomkostninger &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Lønninger  537.675 326.861&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Pensioner  10.774 16.144&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Andre omkostninger til social sikring  36.971 5.288&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; 585.420 348.293&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfEmployeeBenefitsExpense>
+  <fsa:DisclosureOfTaxExpenses contextRef="Per01012013_31122013">2 Skat af årets resultat &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Beregnet skat af årets resultat  0 90.125&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Regulering af udskudt skat  -57.285 1.691&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; -57.285 91.816&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfTaxExpenses>
+  <fsa:DisclosureOfPropertyPlantAndEquipment contextRef="Per01012013_31122013">3 Materielle anlægsaktiver &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Anskaffelsessum, primo  63.500&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Tilgang i årets løb  43.000&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Afgang i årets løb  -30.000&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Anskaffelsessum 31. december 2013  76.500&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Af-/nedskrivninger, primo  -9.111&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Af-/nedskrivninger på afhændede aktiver  10.833&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Årets af-/nedskrivninger  -27.028&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Af-/nedskrivninger 31. december 2013  -25.306&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Regnskabsmæssig værdi 31. december 2013  51.194&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfPropertyPlantAndEquipment>
+  <fsa:DisclosureOfReceivables contextRef="Per01012013_31122013">4 Selskabsskat &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Selskabsskat, primo  9.875 0&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Skat af årets resultat  0 -90.125&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Betalt indkomstskat i regnskabsåret  -9.875 0&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Betalt frivillig acontoskat  10.000 100.000&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; 10.000 9.875&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfReceivables>
+  <fsa:DisclosureOfEquity contextRef="Per01012013_31122013">5 Egenkapital &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Virksomhedskapital  80.000 0 0 80.000&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Overført resultat  95.496 0 -177.026 -81.530&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Forslag til udbytte for&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; regnskabsåret  180.000 -180.000 0 0&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;        &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; 355.496 -180.000 -177.026 -1.530&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;        &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;  &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;   &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;   &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;     &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfEquity>
+  <fsa:DisclosureOfContingentLiabilities contextRef="Per01012013_31122013">6 Eventualposter mv. &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Der er ingen eventualforpligtelser udover de i årsrapporten nævnte.                    &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfContingentLiabilities>
+  <fsa:DisclosureOfMortgagesAndCollaterals contextRef="Per01012013_31122013">7 Pantsætninger og sikkerhedsstillelser &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt; Der er ingen pantsætninger og sikkerhedsstillelser udover de i årsrapporten nævnte.                     &lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;</fsa:DisclosureOfMortgagesAndCollaterals>
+  <fsa:GrossProfitLoss contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">724816</fsa:GrossProfitLoss>
+  <fsa:EmployeeBenefitsExpense contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">348293</fsa:EmployeeBenefitsExpense>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">9111</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">367412</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:RestOfOtherFinanceExpenses contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">100</fsa:RestOfOtherFinanceExpenses>
+  <fsa:TaxExpense contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">91816</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="Per01012012_31122012" decimals="0" unitRef="DKK">275496</fsa:ProfitLoss>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">51194</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">51194</fsa:PropertyPlantAndEquipment>
+  <fsa:OtherLongtermReceivables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">11000</fsa:OtherLongtermReceivables>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">11000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:NoncurrentAssets contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">62194</fsa:NoncurrentAssets>
+  <fsa:ShorttermTradeReceivables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">132741</fsa:ShorttermTradeReceivables>
+  <fsa:ContractWorkInProgress contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">0</fsa:ContractWorkInProgress>
+  <fsa:ShorttermTaxReceivables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">10000</fsa:ShorttermTaxReceivables>
+  <fsa:OtherShorttermReceivables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">0</fsa:OtherShorttermReceivables>
+  <fsa:CurrentDeferredTaxAssets contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">55594</fsa:CurrentDeferredTaxAssets>
+  <fsa:DeferredIncomeAssets contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">25386</fsa:DeferredIncomeAssets>
+  <fsa:ShorttermReceivables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">223721</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">48130</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">271851</fsa:CurrentAssets>
+  <fsa:Assets contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">334045</fsa:Assets>
+  <fsa:ContributedCapital contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">80000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">-81530</fsa:RetainedEarnings>
+  <fsa:ProposedDividendRecognisedInEquity contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">0</fsa:ProposedDividendRecognisedInEquity>
+  <fsa:Equity contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">-1530</fsa:Equity>
+  <fsa:ProvisionsForDeferredTax contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">0</fsa:ProvisionsForDeferredTax>
+  <fsa:Provisions contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">0</fsa:Provisions>
+  <fsa:ShorttermTradePayables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">111957</fsa:ShorttermTradePayables>
+  <fsa:ShorttermPayablesToAssociates contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">180000</fsa:ShorttermPayablesToAssociates>
+  <fsa:OtherShorttermPayables contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">43618</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">335575</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">335575</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="Per01012013_31122013-Instant" decimals="0" unitRef="DKK">334045</fsa:LiabilitiesAndEquity>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">54388</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">54388</fsa:PropertyPlantAndEquipment>
+  <fsa:OtherLongtermReceivables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">11000</fsa:OtherLongtermReceivables>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">11000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:NoncurrentAssets contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">65388</fsa:NoncurrentAssets>
+  <fsa:ShorttermTradeReceivables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">233507</fsa:ShorttermTradeReceivables>
+  <fsa:ContractWorkInProgress contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">79000</fsa:ContractWorkInProgress>
+  <fsa:ShorttermTaxReceivables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">9875</fsa:ShorttermTaxReceivables>
+  <fsa:OtherShorttermReceivables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">7080</fsa:OtherShorttermReceivables>
+  <fsa:CurrentDeferredTaxAssets contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">0</fsa:CurrentDeferredTaxAssets>
+  <fsa:DeferredIncomeAssets contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">18203</fsa:DeferredIncomeAssets>
+  <fsa:ShorttermReceivables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">347665</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">214720</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">562385</fsa:CurrentAssets>
+  <fsa:Assets contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">627773</fsa:Assets>
+  <fsa:ContributedCapital contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">80000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">95496</fsa:RetainedEarnings>
+  <fsa:ProposedDividendRecognisedInEquity contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">180000</fsa:ProposedDividendRecognisedInEquity>
+  <fsa:Equity contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">355496</fsa:Equity>
+  <fsa:ProvisionsForDeferredTax contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">1691</fsa:ProvisionsForDeferredTax>
+  <fsa:Provisions contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">1691</fsa:Provisions>
+  <fsa:ShorttermTradePayables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">160922</fsa:ShorttermTradePayables>
+  <fsa:ShorttermPayablesToAssociates contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">0</fsa:ShorttermPayablesToAssociates>
+  <fsa:OtherShorttermPayables contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">109664</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">270586</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">270586</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="Per01012012_31122012-Instant" decimals="0" unitRef="DKK">627773</fsa:LiabilitiesAndEquity>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="Per01012013_31122013_0_Identifikation_af_medlem_af_direktionen">Morten Junior VinzentsenPalle Victor Katring-Rasmussen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:NameAndSurnameOfAuditor contextRef="Per01012013_31122013_1_Identifikation_af_revisor">Torben Wind</cmn:NameAndSurnameOfAuditor>
+  <cmn:NameOfAuditFirm contextRef="Per01012013_31122013_1_Identifikation_af_revisor">Wind Revision, Registreret Revisionsanpartsselskab</cmn:NameOfAuditFirm>
+  <cmn:DescriptionOfAuditor contextRef="Per01012013_31122013_1_Identifikation_af_revisor">Registreret revisor</cmn:DescriptionOfAuditor>
+  <fsa:ProfitLoss contextRef="Per01012013_31122013_2_Foreslået_udbytte_indregnet_under_egenkapitalen" decimals="0" unitRef="DKK">0</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="Per01012013_31122013_3_Overført_resultat" decimals="0" unitRef="DKK">-177026</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="Per01012012_31122012_0_Foreslået_udbytte_indregnet_under_egenkapitalen" decimals="0" unitRef="DKK">180000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="Per01012012_31122012_1_Overført_resultat" decimals="0" unitRef="DKK">95496</fsa:ProfitLoss>
+</xbrl>

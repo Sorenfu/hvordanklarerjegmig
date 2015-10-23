@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:basis="http://xbrl.dcca.dk/Regnskab 2.0 Basis" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20120101/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20120101.xsd" xlink:type="simple"/>
+   <xbrli:context id="duration_only">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">33506422</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2011-02-27</xbrli:startDate>
+         <xbrli:endDate>2012-06-30</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">33506422</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2011-02-27</xbrli:startDate>
+         <xbrli:endDate>2012-06-30</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="duration_RetainedEarningsMember">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">33506422</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2011-02-27</xbrli:startDate>
+         <xbrli:endDate>2012-06-30</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="instant_only">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">33506422</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2012-06-30</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="DKK">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:ancestor="generelInfo" basis:version="1" contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">2012-11-19</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">Erling Kristiansen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">MALERFIRMAET ROSEN ApS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">Firhøj 55</gsd:AddressOfReportingEntityStreetAndNumber>
+   <gsd:AddressOfReportingEntityPostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">2690 Karlslunde</gsd:AddressOfReportingEntityPostcodeAndTown>
+   <gsd:TelephoneNumberOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">40923044</gsd:TelephoneNumberOfReportingEntity>
+   <gsd:EmailOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">info@malerfirmarosen.dk</gsd:EmailOfReportingEntity>
+   <gsd:IdentificationNumberCvrOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">33506422</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate basis:ancestor="generelInfo" contextRef="duration_only">2011-02-27</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate basis:ancestor="generelInfo" contextRef="duration_only">2012-06-30</gsd:ReportingPeriodEndDate>
+   <sob:StatementByExecutiveAndSupervisoryBoards basis:ancestor="statementByExecutive" contextRef="duration_only">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;     
+&lt;br/&gt;
+            
+&lt;br/&gt; Ledelsen har aflagt årsrapporten for 2011/2012 for
+Malerfirmaet Rosen ApS.    
+&lt;br/&gt;      
+&lt;br/&gt; Årsrapporten er aflagt i overensstemmelse med
+årsregnskabsloven.    
+&lt;br/&gt;      
+&lt;br/&gt; Ledelsen anser den valgte regnskabspraksis for
+hensigtsmæssig, således at     
+&lt;br/&gt; årsrapporten giver et retvisende billede af selskabets
+aktiver og passiver,    
+&lt;br/&gt; finansielle stilling samt resultat.    
+&lt;br/&gt; Selskabet opfylder betingelserne for ikke at blive
+revideret.    
+&lt;br/&gt; Årsrapporten er udarbejdet med bistand af revisor FDR
+Erling Kristiansen,    
+&lt;br/&gt; Hovedvejen 118, 2600  Glostrup    
+&lt;br/&gt; Årsrapporten indstilles til generalforsamlingens
+godkendelse.    
+&lt;br/&gt;      
+&lt;br/&gt; Hovedaktivitet:    
+&lt;br/&gt;      
+&lt;br/&gt; Selskabets hovedaktivitet er at drive
+malermestervirksomhed.    
+&lt;br/&gt;      
+&lt;br/&gt;      
+&lt;br/&gt; Usædvanlige forhold:    
+&lt;br/&gt;      
+&lt;br/&gt; Ingen.    
+&lt;br/&gt;      
+&lt;br/&gt; Forventet udvikling:    
+&lt;br/&gt;      
+&lt;br/&gt; De økonomiske resultat for regnskabsåret er ikke
+tilfredsstillende.    
+&lt;br/&gt; Selskabet har instillet sin aktivitet i maj måned
+2012.    
+&lt;br/&gt; Der forventes en likvididation af
+selskabet.    
+&lt;br/&gt;      
+&lt;br/&gt;      
+&lt;br/&gt; Forslag til overskudsdisponering:    
+&lt;br/&gt;      
+&lt;br/&gt;
+Udbytte                            
+ 0   
+&lt;br/&gt; Overført til næste år
+-63.746   
+&lt;br/&gt; Årets
+resultat          
+ -63.746   
+&lt;br/&gt;       
+&lt;br/&gt;       
+&lt;br/&gt;       
+&lt;br/&gt;       
+&lt;br/&gt; Generalforsamlingens beslutning om fravalg af
+revision:    
+&lt;br/&gt;      
+&lt;br/&gt; Generalforsamlingen har beslutttet, at årsrapporten for
+det kommende    
+&lt;br/&gt; regnskabsår ikke skal
+revideres.    
+&lt;br/&gt;      
+&lt;br/&gt;  &lt;/p&gt;
+</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement basis:ancestor="statementByExecutive" contextRef="duration_only">Glostrup</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport basis:ancestor="statementByExecutive" contextRef="duration_only">2012-11-19</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract" contextRef="duration_memberOfExecutiveBoardIdentifier_1">Ina Rosenmejer Jakobsen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <fsa:InformationOnReportingClassOfEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies basis:ancestor="regnskabspraksis" contextRef="duration_only">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;     
+&lt;br/&gt;   
+&lt;br/&gt;     
+&lt;br/&gt; Der er ikke sammenligningstal, da regnskabet er selskabets
+første.   
+&lt;br/&gt;    
+&lt;br/&gt; Anlægsaktiver afskrives lineært med følgende
+satser p.a:   
+&lt;br/&gt;    
+&lt;br/&gt;
+                                
+Driftsmateriel og inventar 20%  
+&lt;br/&gt;    
+&lt;br/&gt; Aktiver med en kostpris på under kr. 12.300 pr. enhed
+indregnes som omkostning   
+&lt;br/&gt; i resultatopgørelsen i
+anskaffelsesåret.   
+&lt;br/&gt;    
+&lt;br/&gt; Finansielle anlægsaktiver måles til
+anskaffelseskurs, kursavancer er
+indtægtsført   
+&lt;br/&gt; under renteintægter.   
+&lt;br/&gt;    
+&lt;br/&gt; Alle poster i fremmed valuta er optaget til gennemsnitskurs.
+Realiserede og   
+&lt;br/&gt; urealiserede gevinster og tab indgået i
+resultatopgørelsen.   
+&lt;br/&gt;    
+&lt;br/&gt; Tilgodehavender fra salg måles til kostpris, der
+sædvanligvis svarer til den    
+&lt;br/&gt; nominelle værdi.   
+&lt;br/&gt;    
+&lt;br/&gt;    
+&lt;br/&gt;    
+&lt;br/&gt; Gældsforpligtelser måles til nominel
+værdi.   
+&lt;br/&gt;    
+&lt;br/&gt; Skat, herunder udskudt skat:   
+&lt;br/&gt;    
+&lt;br/&gt; I resultatopgørelsen er udgiftsført skat med 25%
+af årets resultat korrigeret for   
+&lt;br/&gt; indtægter og udgifter, der er den skattepligtige
+indkomst uvedkommende.   
+&lt;br/&gt;    
+&lt;br/&gt; Eventualskat er beregnet som de tidsmæssige forskelle
+mellem regnskabsmæssige   
+&lt;br/&gt; og skattemæssige af- og
+nedskrivninger.   
+&lt;br/&gt; Eventualskat er beregnet med 25%.   
+&lt;br/&gt;    
+&lt;br/&gt;    
+&lt;br/&gt;    
+&lt;br/&gt;  &lt;/p&gt;
+</fsa:DisclosureOfAccountingPolicies>
+   <fsa:Revenue basis:ancestor="treeGroup1" contextRef="duration_only" decimals="0" unitRef="DKK">310427</fsa:Revenue>
+   <fsa:CostOfSales basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">102787</fsa:CostOfSales>
+   <fsa:AdministrativeExpenses basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">38818</fsa:AdministrativeExpenses>
+   <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">168822</fsa:GrossResult>
+   <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0" unitRef="DKK">232568</fsa:EmployeeBenefitsExpense>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0" unitRef="DKK">-63746</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0" unitRef="DKK">-63746</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0" unitRef="DKK">-63746</fsa:ExtraordinaryProfitLossBeforeTax>
+   <fsa:TaxExpense basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:TaxExpense>
+   <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only" decimals="0" unitRef="DKK">-63746</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_RetainedEarningsMember" decimals="0" unitRef="DKK">-63746</fsa:ProfitLoss>
+   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_only" decimals="0" unitRef="DKK">-63746</fsa:ProfitLoss>
+   <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:PropertyPlantAndEquipment>
+   <fsa:NoncurrentAssets basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:NoncurrentAssets>
+   <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermTradeReceivables>
+   <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermReceivables>
+   <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only" decimals="0" unitRef="DKK">23337</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only" decimals="0" unitRef="DKK">23337</fsa:CurrentAssets>
+   <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only" decimals="0" unitRef="DKK">23337</fsa:Assets>
+   <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">80000</fsa:ContributedCapital>
+   <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">-63746</fsa:RetainedEarnings>
+   <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">16254</fsa:Equity>
+   <fsa:LongtermTaxPayables basis:ancestor="treeGroup3" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermTaxPayables>
+   <fsa:LongtermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup3" contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">6619</fsa:ShorttermTradePayables>
+   <fsa:OtherShorttermPayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">464</fsa:OtherShorttermPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">7083</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0" unitRef="DKK">7083</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">23337</fsa:LiabilitiesAndEquity>
+   <fsa:DisclosureOfDiscontinuedOperations basis:ancestor="noter" contextRef="duration_only">
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets aktivitet er ophørt i maj 2012.&lt;/p&gt;
+</fsa:DisclosureOfDiscontinuedOperations>
+   <fsa:DisclosureOfContingentLiabilities basis:ancestor="noter" contextRef="duration_only">
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Eventualforpligtelser udgør kun almindelig garati.&lt;/p&gt;
+</fsa:DisclosureOfContingentLiabilities>
+   <gsd:NameOfSubmittingEnterprise basis:ancestor="generelInfo" contextRef="duration_only">Erling Kristiansen</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">Hovedvejen 118</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">2600  Glostrup</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>
