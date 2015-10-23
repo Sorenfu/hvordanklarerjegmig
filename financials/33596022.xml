@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab 2.0 Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd" xlink:type="simple"/>
+  <xbrli:context id="duration_only">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">33596022</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2013-01-01</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+  <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">33596022</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2013-01-01</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+</xbrli:context>
+  <xbrli:context id="duration_RetainedEarningsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">33596022</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2013-01-01</xbrli:startDate>
+<xbrli:endDate>2013-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+  <xbrli:context id="instant_only">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">33596022</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2013-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+  <xbrli:unit id="DKK">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:ancestor="generelInfo" basis:version="2" contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">2014-08-02</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">Peter Sandor Kovacs</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">ALTMALER ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName basis:ancestor="generelInfo" contextRef="duration_only">Ved Bellahøj Syd</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier basis:ancestor="generelInfo" contextRef="duration_only">22</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier basis:ancestor="generelInfo" contextRef="duration_only">2700</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName basis:ancestor="generelInfo" contextRef="duration_only">Brønshøj</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:IdentificationNumberCvrOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">33596022</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate basis:ancestor="generelInfo" contextRef="duration_only">2013-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate basis:ancestor="generelInfo" contextRef="duration_only">2013-12-31</gsd:ReportingPeriodEndDate>
+  <gsd:NameOfFinancialInstitution basis:ancestor="generelInfo" contextRef="duration_only">Sydbank</gsd:NameOfFinancialInstitution>
+  <gsd:AddressOfFinancialCountryIdentificationCode basis:ancestor="generelInfo" contextRef="duration_only">DK</gsd:AddressOfFinancialCountryIdentificationCode>
+  <gsd:AddressOfFinancialCountry basis:ancestor="generelInfo" contextRef="duration_only">Danmark</gsd:AddressOfFinancialCountry>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract" contextRef="duration_memberOfExecutiveBoardIdentifier_1">Lászlo Gyözö Fazekas</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption basis:ancestor="statementByExecutive" contextRef="duration_only">GM Regnskab
+v/Gert Melgaard</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+  <fsa:InformationOnReportingClassOfEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies basis:ancestor="regnskabspraksis" contextRef="duration_only">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;....&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;....&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;....&lt;/p&gt;
+</fsa:DisclosureOfAccountingPolicies>
+  <fsa:Revenue basis:ancestor="treeGroup1" contextRef="duration_only" decimals="0" unitRef="DKK">853529</fsa:Revenue>
+  <fsa:ExternalExpenses basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">404910</fsa:ExternalExpenses>
+  <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0" unitRef="DKK">448619</fsa:GrossResult>
+  <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0" unitRef="DKK">332531</fsa:EmployeeBenefitsExpense>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0" unitRef="DKK">116088</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceExpenses basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0" unitRef="DKK">531</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0" unitRef="DKK">115557</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0" unitRef="DKK">115557</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only" decimals="0" unitRef="DKK">115557</fsa:ProfitLoss>
+  <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_RetainedEarningsMember" decimals="0" unitRef="DKK">72185</fsa:ProfitLoss>
+  <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">105510</fsa:ShorttermTradeReceivables>
+  <fsa:OtherShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">476335</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">581845</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only" decimals="0" unitRef="DKK">7856</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only" decimals="0" unitRef="DKK">589701</fsa:CurrentAssets>
+  <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only" decimals="0" unitRef="DKK">589701</fsa:Assets>
+  <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">80000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">9181</fsa:RetainedEarnings>
+  <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0" unitRef="DKK">89181</fsa:Equity>
+  <fsa:ProvisionsForDeferredTax basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0" unitRef="DKK">75658</fsa:ProvisionsForDeferredTax>
+  <fsa:Provisions basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0" unitRef="DKK">75658</fsa:Provisions>
+  <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">177607</fsa:ShorttermTradePayables>
+  <fsa:ShorttermTaxPayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">24062</fsa:ShorttermTaxPayables>
+  <fsa:OtherShorttermPayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">223193</fsa:OtherShorttermPayables>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0" unitRef="DKK">424862</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0" unitRef="DKK">424862</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0" unitRef="DKK">589701</fsa:LiabilitiesAndEquity>
+  <gsd:NameOfSubmittingEnterprise basis:ancestor="generelInfo" contextRef="duration_only">Peter Sandor Kovacs c/o ALTmaler ApS</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">Ved Bellahøj Syd 22, 1-2</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">2700 Brønshøj</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <cmn:TypeOfAuditorAssistance contextRef="duration_only">Ingen bistand</cmn:TypeOfAuditorAssistance>
+</xbrli:xbrl>

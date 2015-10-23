@@ -1,59 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance"
-            xmlns:basis="http://xbrl.dcca.dk/Regnskab 2.0 Basis"
-            xmlns:fsa="http://xbrl.dcca.dk/fsa"
-            xmlns:arr="http://xbrl.dcca.dk/arr"
-            xmlns:xl="http://www.xbrl.org/2003/XLink"
-            xmlns:xhtml="http://www.w3.org/1999/xhtml"
-            xmlns:lnk="http://www.xbrl.org/2003/linkbase"
-            xmlns:ix="http://www.xbrl.org/2008/inlineXBRL"
-            xmlns:link="http://www.xbrl.org/2003/linkbase"
-            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-            xmlns:cmn="http://xbrl.dcca.dk/cmn"
-            xmlns:dst="http://xbrl.dcca.dk/dst"
-            xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
-            xmlns:gsd="http://xbrl.dcca.dk/gsd"
-            xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs"
-            xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
-            xmlns:ref="http://www.xbrl.org/2006/ref"
-            xmlns:mrv="http://xbrl.dcca.dk/mrv"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xmlns:sob="http://xbrl.dcca.dk/sob"
-            xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
-   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"
-                  xlink:type="simple"/>
-   <xbrli:context id="duration_only">
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:sob="http://xbrl.dcca.dk/sob">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:startDate>2012-05-01</xbrli:startDate>
-         <xbrli:endDate>2013-04-30</xbrli:endDate>
+         <xbrli:startDate>2014-05-01</xbrli:startDate>
+         <xbrli:endDate>2015-04-30</xbrli:endDate>
       </xbrli:period>
    </xbrli:context>
-   <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+   <xbrli:context id="c1">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:startDate>2012-05-01</xbrli:startDate>
-         <xbrli:endDate>2013-04-30</xbrli:endDate>
-      </xbrli:period>
-      <xbrli:scenario>
-         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
-            <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
-         </xbrldi:typedMember>
-      </xbrli:scenario>
-   </xbrli:context>
-   <xbrli:context id="duration_auditorIdentifier_1">
-      <xbrli:entity>
-         <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
-      </xbrli:entity>
-      <xbrli:period>
-         <xbrli:startDate>2012-05-01</xbrli:startDate>
-         <xbrli:endDate>2013-04-30</xbrli:endDate>
+         <xbrli:startDate>2014-05-01</xbrli:startDate>
+         <xbrli:endDate>2015-04-30</xbrli:endDate>
       </xbrli:period>
       <xbrli:scenario>
          <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
@@ -61,299 +23,236 @@
          </xbrldi:typedMember>
       </xbrli:scenario>
    </xbrli:context>
-   <xbrli:context id="duration_only_previous">
+   <xbrli:context id="c2">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:startDate>2011-05-01</xbrli:startDate>
-         <xbrli:endDate>2012-04-30</xbrli:endDate>
+         <xbrli:startDate>2014-05-01</xbrli:startDate>
+         <xbrli:endDate>2015-04-30</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c3">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2013-05-01</xbrli:startDate>
+         <xbrli:endDate>2014-04-30</xbrli:endDate>
       </xbrli:period>
    </xbrli:context>
-   <xbrli:context id="duration_ProposedDividendRecognisedInEquityMember">
+   <xbrli:context id="c4">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:startDate>2012-05-01</xbrli:startDate>
-         <xbrli:endDate>2013-04-30</xbrli:endDate>
+         <xbrli:startDate>2014-05-01</xbrli:startDate>
+         <xbrli:endDate>2015-04-30</xbrli:endDate>
       </xbrli:period>
       <xbrli:scenario>
          <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
       </xbrli:scenario>
    </xbrli:context>
-   <xbrli:context id="duration_RetainedEarningsMember">
+   <xbrli:context id="c5">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:startDate>2012-05-01</xbrli:startDate>
-         <xbrli:endDate>2013-04-30</xbrli:endDate>
+         <xbrli:startDate>2013-05-01</xbrli:startDate>
+         <xbrli:endDate>2014-04-30</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c6">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2014-05-01</xbrli:startDate>
+         <xbrli:endDate>2015-04-30</xbrli:endDate>
       </xbrli:period>
       <xbrli:scenario>
          <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
       </xbrli:scenario>
    </xbrli:context>
-   <xbrli:context id="duration_RetainedEarningsMember_previous">
+   <xbrli:context id="c7">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:startDate>2011-05-01</xbrli:startDate>
-         <xbrli:endDate>2012-04-30</xbrli:endDate>
+         <xbrli:startDate>2013-05-01</xbrli:startDate>
+         <xbrli:endDate>2014-04-30</xbrli:endDate>
       </xbrli:period>
       <xbrli:scenario>
          <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
       </xbrli:scenario>
    </xbrli:context>
-   <xbrli:context id="instant_only">
+   <xbrli:context id="c8">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:instant>2013-04-30</xbrli:instant>
+         <xbrli:instant>2015-04-30</xbrli:instant>
       </xbrli:period>
    </xbrli:context>
-   <xbrli:context id="instant_only_previous">
+   <xbrli:context id="c9">
       <xbrli:entity>
          <xbrli:identifier scheme="http://www.dcca.dk/cvr">10471443</xbrli:identifier>
       </xbrli:entity>
       <xbrli:period>
-         <xbrli:instant>2012-04-30</xbrli:instant>
+         <xbrli:instant>2014-04-30</xbrli:instant>
       </xbrli:period>
    </xbrli:context>
-   <xbrli:unit id="DKK">
+   <xbrli:unit id="u0">
       <xbrli:measure>iso4217:DKK</xbrli:measure>
    </xbrli:unit>
-   <gsd:InformationOnTypeOfSubmittedReport basis:ancestor="generelInfo" basis:version="2" contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
-   <gsd:DateOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">2013-06-10</gsd:DateOfGeneralMeeting>
-   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">Per Wibe Sørensen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
-   <gsd:NameOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">WIBE'S MALERFORRETNING ApS V.     PER WIBE SØRENSEN</gsd:NameOfReportingEntity>
-   <gsd:AddressOfReportingEntityStreetName basis:ancestor="generelInfo" contextRef="duration_only">Udsigten</gsd:AddressOfReportingEntityStreetName>
-   <gsd:AddressOfReportingEntityStreetBuildingIdentifier basis:ancestor="generelInfo" contextRef="duration_only">2</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
-   <gsd:AddressOfReportingEntityPostCodeIdentifier basis:ancestor="generelInfo" contextRef="duration_only">9610</gsd:AddressOfReportingEntityPostCodeIdentifier>
-   <gsd:AddressOfReportingEntityDistrictName basis:ancestor="generelInfo" contextRef="duration_only">Nørager</gsd:AddressOfReportingEntityDistrictName>
-   <gsd:TelephoneNumberOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">98569034</gsd:TelephoneNumberOfReportingEntity>
-   <gsd:IdentificationNumberCvrOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">10471443</gsd:IdentificationNumberCvrOfReportingEntity>
-   <gsd:ReportingPeriodStartDate basis:ancestor="generelInfo" contextRef="duration_only">2012-05-01</gsd:ReportingPeriodStartDate>
-   <gsd:ReportingPeriodEndDate basis:ancestor="generelInfo" contextRef="duration_only">2013-04-30</gsd:ReportingPeriodEndDate>
-   <gsd:NameOfFinancialInstitution basis:ancestor="generelInfo" contextRef="duration_only">Sparekassen Hobro</gsd:NameOfFinancialInstitution>
-   <gsd:AddressOfFinancialDistrictName basis:ancestor="generelInfo" contextRef="duration_only">9610 Nørager</gsd:AddressOfFinancialDistrictName>
-   <sob:StatementByExecutiveAndSupervisoryBoards basis:ancestor="statementByExecutive" contextRef="duration_only">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen i Wibes
-Malerforretning ApS aflægger hermed Årsregnskab for
-perioden 1/5-12 til 30/4-13&lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Den samlede ledelse
-erklærer at årsregnskabet er aflagt i
-overensstemmelse med årsregnskabsloven.&lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;At regnskabet giver et
-retvisende billede af virksomhedens aktiver og passiver,
-financielle stilling samt resultat.&lt;/p&gt;
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2015-06-23</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Per Wibe Sørensen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">WIBE'S MALERFORRETNING ApS V. PER WIBE SØRENSEN</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Skyttevej</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">18</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">8450</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Hammel</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:TelephoneNumberOfReportingEntity contextRef="c0" xml:lang="da">98569034</gsd:TelephoneNumberOfReportingEntity>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">10471443</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2014-05-01</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2015-04-30</gsd:ReportingPeriodEndDate>
+   <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">Sparekassen Hobro</gsd:NameOfFinancialInstitution>
+   <gsd:AddressOfFinancialDistrictName contextRef="c0" xml:lang="da">9610 Nørager</gsd:AddressOfFinancialDistrictName>
+   <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">Eklund Consult</cmn:NameOfAuditFirm>
+   <gsd:AddressOfAuditorStreetName contextRef="c1" xml:lang="da">Jernbanegade</gsd:AddressOfAuditorStreetName>
+   <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="c1" xml:lang="da">9</gsd:AddressOfAuditorStreetBuildingIdentifier>
+   <gsd:AddressOfAuditorPostCodeIdentifier contextRef="c1" xml:lang="da">9560</gsd:AddressOfAuditorPostCodeIdentifier>
+   <gsd:AddressOfAuditorDistrictName contextRef="c1" xml:lang="da">Hadsund</gsd:AddressOfAuditorDistrictName>
+   <gsd:AddressOfAuditorCountryIdentificationCode contextRef="c1" xml:lang="da">DK</gsd:AddressOfAuditorCountryIdentificationCode>
+   <gsd:AddressOfAuditorCountry contextRef="c1" xml:lang="da">Danmark</gsd:AddressOfAuditorCountry>
+   <cmn:IdentificationNumberCvrOfAuditFirm contextRef="c1" xml:lang="da">14633871</cmn:IdentificationNumberCvrOfAuditFirm>
+   <cmn:IdentificationNumberPnrOfAuditFirm contextRef="c1" xml:lang="da">1000776097</cmn:IdentificationNumberPnrOfAuditFirm>
+   <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen i Wibes Malerforretning ApS aflægger hermed Årsregnskab for perioden 1/5-14 til 30/4-15&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Den samlede ledelse erklærer at årsregnskabet er aflagt i overensstemmelse med årsregnskabsloven.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;At regnskabet giver et retvisende billede af virksomhedens aktiver og passiver, financielle stilling samt resultat.&lt;/p&gt;
 &lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Det er besluttet at
-fravælge revision.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Det er besluttet at fravælge revision.&lt;/p&gt;
 &lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Hadsund 31/5 2013&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Hadsund 24/6 2015&lt;/p&gt;
 &lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen&lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Per Wibe Sørensen&lt;/p&gt;
-</sob:StatementByExecutiveAndSupervisoryBoards>
-   <sob:PlaceOfSignatureOfStatement basis:ancestor="statementByExecutive" contextRef="duration_only">hadsund</sob:PlaceOfSignatureOfStatement>
-   <sob:DateOfApprovalOfAnnualReport basis:ancestor="statementByExecutive" contextRef="duration_only">2013-05-31</sob:DateOfApprovalOfAnnualReport>
-   <cmn:NameAndSurnameOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract"
-                                               contextRef="duration_memberOfExecutiveBoardIdentifier_1">Per Wibe Sørensen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
-   <cmn:TitleOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract"
-                                      contextRef="duration_memberOfExecutiveBoardIdentifier_1">direktør</cmn:TitleOfMemberOfExecutiveBoard>
-   <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption basis:ancestor="statementByExecutive" contextRef="duration_only">revision fravalgt for det kommende år</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
-   <arr:AuditorsReportsOtherReports basis:ancestor="revision" contextRef="duration_only">Revisors erklæring om regnskabsmæssig assistance</arr:AuditorsReportsOtherReports>
-   <arr:AddresseeOfAuditorsReportOnOtherReport basis:ancestor="revision" contextRef="duration_only">Kapitalejerne af anpartselskabet Wibes Malerforretning</arr:AddresseeOfAuditorsReportOnOtherReport>
-   <arr:DescriptionOfOtherEngagement basis:ancestor="revision" contextRef="duration_only">Vi har udført gennemgangen i overensstemmelse med den danske revisionsstandard om assistance med regnskabsopstilling.
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Denne standard kræver, at vi tilrettelægger og foretager gennemgangen med henblik på at opnå moderat grad af sikkerhed for, at årsregnskabet ikke indeholder væsentlig fejlinformation, Vi har ikke udført revision og udtrykker derfor ingen revisionskonklusion om årsregnskabet</arr:DescriptionOfOtherEngagement>
-   <arr:SignatureOfAuditorsPlace basis:ancestor="revision" contextRef="duration_only">hadsund</arr:SignatureOfAuditorsPlace>
-   <arr:SignatureOfAuditorsDate basis:ancestor="revision" contextRef="duration_only">2013-05-31</arr:SignatureOfAuditorsDate>
-   <cmn:NameAndSurnameOfAuditor basis:ancestor="DetailsOnSignatureAuditorsAbstract"
-                                contextRef="duration_auditorIdentifier_1">eyvind eklund</cmn:NameAndSurnameOfAuditor>
-   <cmn:DescriptionOfAuditor basis:ancestor="DetailsOnSignatureAuditorsAbstract"
-                             contextRef="duration_auditorIdentifier_1">reg. revisor</cmn:DescriptionOfAuditor>
-   <cmn:NameOfAuditFirm basis:ancestor="DetailsOnSignatureAuditorsAbstract"
-                        contextRef="duration_auditorIdentifier_1">eklund consult</cmn:NameOfAuditFirm>
-   <fsa:InformationOnReportingClassOfEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
-   <fsa:ClassOfReportingEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
-   <fsa:DisclosureOfAccountingPolicies basis:ancestor="regnskabspraksis" contextRef="duration_only">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt
-regnskabspraksis&lt;/h2&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsregnskabet er
-aflagt i overensstemmelse med årsregnskabsloven for klasse b
-virksomheder.....&lt;/p&gt;
-&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;
-Resultatopgørelse&lt;/h2&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Nettoomsætning beroer
-på malervirksomhed, renteindtægter er fra
-bankindestående, skat af årets indkomst er reduceret med
-underskud tidl. år, der er hensat eventualskat.....&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Per Wibe Sørensen&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">hadsund</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport contextRef="c0">2015-06-23</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Per Wibe Sørensen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Fravalgt revision for det kommende regnskabsår</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+   <arr:AuditorsReportsOtherReports contextRef="c0" xml:lang="da">Revisors erklæring om opstilling af årsregnskab</arr:AuditorsReportsOtherReports>
+   <arr:AddresseeOfAuditorsReportOnOtherReport contextRef="c0" xml:lang="da">Eklund Consult
+Registreret Revisor
+Jernbanegade 9
+9560 Hadsund</arr:AddresseeOfAuditorsReportOnOtherReport>
+   <arr:DescriptionOfOtherEngagement contextRef="c0" xml:lang="da">Den uafhængige revisors erklæring.
+Til Kapitalejerne af anpartselskabet Wibes Malerforretning.
+Vi har efter aftale udført gennemgang af årsregnskabet for Wibes Malerforretning ApS for regnskabsåret 1/5-14  til 30/4-15. Virksomhedens ledelse har ansvaret for årsregnskabet. Vort ansvar er at foretage en gennemgang af årsregnskabet.
+Vi har udført gennemgangen med den danske standard om assistance med regnskabs opstilling.
+Denne standard kræver, at vi tilrettelægger og foretager gennemgangen med henblik på at opnå moderat grad af sikkerhed for, at årsregnskabet ikke indeholder væsentlig fejlinformation.
+Vi har ikke udført revision og udtrykker derfor ingen revisions konklusion om årsregnskabet.</arr:DescriptionOfOtherEngagement>
+   <arr:SignatureOfAuditorsPlace contextRef="c0" xml:lang="da">hadsund</arr:SignatureOfAuditorsPlace>
+   <arr:SignatureOfAuditorsDate contextRef="c0">2015-06-16</arr:SignatureOfAuditorsDate>
+   <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsregnskabet er aflagt i overensstemmelse med årsregnskabsloven for klasse b virksomheder.....&lt;/p&gt;
+&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Nettoomsætning beroer på malervirksomhed, renteindtægter er fra bankindestående, skat af årets indkomst er reduceret med underskud tidl. år, der er hensat eventualskat.....&lt;/p&gt;
 &lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Materielle
-anlægsaktiver er aktiveret til anskaffelsespris med levetid 5
-år (20% lineær afskrivning) Mindre nyanskaffelser
-(12.300) afskrives 100% ved anskaffelsen.&lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Varebeholdninger,
-igangværende arbejder er anskaffelsespris (arbejdsløn og
-materialer) og.debitorer er vurderet i forhold til tabsrisiko,
-der er ikke foretaget hensættelser.&lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Alle kendte
-gældsforpligtelser er medtaget.&lt;/p&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Skyldig selskabsskat er
-medtaget tillige med eventualskat i balancen.&lt;/p&gt;
-</fsa:DisclosureOfAccountingPolicies>
-   <fsa:Revenue basis:ancestor="treeGroup1" contextRef="duration_only" decimals="0"
-                unitRef="DKK">1708695</fsa:Revenue>
-   <fsa:Revenue basis:ancestor="treeGroup1" contextRef="duration_only_previous" decimals="0"
-                unitRef="DKK">1525260</fsa:Revenue>
-   <fsa:ExternalExpenses basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0"
-                         unitRef="DKK">295805</fsa:ExternalExpenses>
-   <fsa:ExternalExpenses basis:ancestor="treeGroup2" contextRef="duration_only_previous" decimals="0"
-                         unitRef="DKK">254116</fsa:ExternalExpenses>
-   <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only" decimals="0"
-                    unitRef="DKK">1412890</fsa:GrossResult>
-   <fsa:GrossResult basis:ancestor="treeGroup2" contextRef="duration_only_previous" decimals="0"
-                    unitRef="DKK">1271144</fsa:GrossResult>
-   <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
-                                unitRef="DKK">1265278</fsa:EmployeeBenefitsExpense>
-   <fsa:EmployeeBenefitsExpense basis:ancestor="treeGroup3" contextRef="duration_only_previous" decimals="0"
-                                unitRef="DKK">1362947</fsa:EmployeeBenefitsExpense>
-   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
-                                                                                                                                 unitRef="DKK">26800</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
-   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss basis:ancestor="treeGroup3" contextRef="duration_only_previous" decimals="0"
-                                                                                                                                 unitRef="DKK">20800</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
-   <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
-                                                  unitRef="DKK">120812</fsa:ProfitLossFromOrdinaryOperatingActivities>
-   <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only_previous" decimals="0"
-                                                  unitRef="DKK">-112603</fsa:ProfitLossFromOrdinaryOperatingActivities>
-   <fsa:OtherFinanceIncome basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0"
-                           unitRef="DKK">3681</fsa:OtherFinanceIncome>
-   <fsa:OtherFinanceIncome basis:ancestor="treeGroup4" contextRef="duration_only_previous" decimals="0"
-                           unitRef="DKK">2525</fsa:OtherFinanceIncome>
-   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0"
-                                                  unitRef="DKK">124493</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
-   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only_previous" decimals="0"
-                                                  unitRef="DKK">-110078</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
-   <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0"
-                                         unitRef="DKK">124493</fsa:ExtraordinaryProfitLossBeforeTax>
-   <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only_previous" decimals="0"
-                                         unitRef="DKK">-110078</fsa:ExtraordinaryProfitLossBeforeTax>
-   <fsa:TaxExpense basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0"
-                   unitRef="DKK">801</fsa:TaxExpense>
-   <fsa:TaxExpense basis:ancestor="treeGroup6" contextRef="duration_only_previous" decimals="0"
-                   unitRef="DKK">3696</fsa:TaxExpense>
-   <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only" decimals="0"
-                   unitRef="DKK">123692</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only_previous" decimals="0"
-                   unitRef="DKK">-113774</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8"
-                   contextRef="duration_ProposedDividendRecognisedInEquityMember"
-                   decimals="0"
-                   unitRef="DKK">96600</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_RetainedEarningsMember"
-                   decimals="0"
-                   unitRef="DKK">27092</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8"
-                   contextRef="duration_RetainedEarningsMember_previous"
-                   decimals="0"
-                   unitRef="DKK">-113774</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_only" decimals="0"
-                   unitRef="DKK">123692</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_only_previous" decimals="0"
-                   unitRef="DKK">-113774</fsa:ProfitLoss>
-   <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
-                                          unitRef="DKK">80400</fsa:FixturesFittingsToolsAndEquipment>
-   <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
-                                          unitRef="DKK">107200</fsa:FixturesFittingsToolsAndEquipment>
-   <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
-                                  unitRef="DKK">80400</fsa:PropertyPlantAndEquipment>
-   <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
-                                  unitRef="DKK">107200</fsa:PropertyPlantAndEquipment>
-   <fsa:NoncurrentAssets basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
-                         unitRef="DKK">80400</fsa:NoncurrentAssets>
-   <fsa:NoncurrentAssets basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
-                         unitRef="DKK">107200</fsa:NoncurrentAssets>
-   <fsa:RawMaterialsAndConsumables basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0"
-                                   unitRef="DKK">45285</fsa:RawMaterialsAndConsumables>
-   <fsa:RawMaterialsAndConsumables basis:ancestor="treeGroup5" contextRef="instant_only_previous" decimals="0"
-                                   unitRef="DKK">47175</fsa:RawMaterialsAndConsumables>
-   <fsa:Inventories basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0"
-                    unitRef="DKK">45285</fsa:Inventories>
-   <fsa:Inventories basis:ancestor="treeGroup5" contextRef="instant_only_previous" decimals="0"
-                    unitRef="DKK">47175</fsa:Inventories>
-   <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                                  unitRef="DKK">137202</fsa:ShorttermTradeReceivables>
-   <fsa:ShorttermTradeReceivables basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
-                                  unitRef="DKK">108898</fsa:ShorttermTradeReceivables>
-   <fsa:ContractWorkInProgress basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                               unitRef="DKK">94000</fsa:ContractWorkInProgress>
-   <fsa:ContractWorkInProgress basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
-                               unitRef="DKK">151500</fsa:ContractWorkInProgress>
-   <fsa:OtherShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                                  unitRef="DKK">23000</fsa:OtherShorttermReceivables>
-   <fsa:OtherShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
-                                  unitRef="DKK">23000</fsa:OtherShorttermReceivables>
-   <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                             unitRef="DKK">254202</fsa:ShorttermReceivables>
-   <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
-                             unitRef="DKK">283398</fsa:ShorttermReceivables>
-   <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only" decimals="0"
-                               unitRef="DKK">554777</fsa:CashAndCashEquivalents>
-   <fsa:CashAndCashEquivalents basis:ancestor="treeGroup8" contextRef="instant_only_previous" decimals="0"
-                               unitRef="DKK">266920</fsa:CashAndCashEquivalents>
-   <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only" decimals="0"
-                      unitRef="DKK">854264</fsa:CurrentAssets>
-   <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only_previous" decimals="0"
-                      unitRef="DKK">597493</fsa:CurrentAssets>
-   <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only" decimals="0"
-               unitRef="DKK">934664</fsa:Assets>
-   <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only_previous" decimals="0"
-               unitRef="DKK">704693</fsa:Assets>
-   <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
-                           unitRef="DKK">125000</fsa:ContributedCapital>
-   <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only_previous" decimals="0"
-                           unitRef="DKK">125000</fsa:ContributedCapital>
-   <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
-                         unitRef="DKK">429999</fsa:RetainedEarnings>
-   <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only_previous" decimals="0"
-                         unitRef="DKK">402908</fsa:RetainedEarnings>
-   <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
-               unitRef="DKK">554999</fsa:Equity>
-   <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only_previous" decimals="0"
-               unitRef="DKK">527908</fsa:Equity>
-   <fsa:ProvisionsForDeferredTax basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
-                                 unitRef="DKK">83</fsa:ProvisionsForDeferredTax>
-   <fsa:ProvisionsForDeferredTax basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
-                                 unitRef="DKK">110</fsa:ProvisionsForDeferredTax>
-   <fsa:Provisions basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
-                   unitRef="DKK">83</fsa:Provisions>
-   <fsa:Provisions basis:ancestor="treeGroup2" contextRef="instant_only_previous" decimals="0"
-                   unitRef="DKK">110</fsa:Provisions>
-   <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
-                               unitRef="DKK">24907</fsa:ShorttermTradePayables>
-   <fsa:ShorttermTradePayables basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
-                               unitRef="DKK">29300</fsa:ShorttermTradePayables>
-   <fsa:ShorttermTaxPayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
-                             unitRef="DKK">-20068</fsa:ShorttermTaxPayables>
-   <fsa:ShorttermTaxPayables basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
-                             unitRef="DKK">-23000</fsa:ShorttermTaxPayables>
-   <fsa:OtherShorttermPayables basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
-                               unitRef="DKK">374743</fsa:OtherShorttermPayables>
-   <fsa:OtherShorttermPayables basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
-                               unitRef="DKK">170375</fsa:OtherShorttermPayables>
-   <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
-                                                unitRef="DKK">379582</fsa:ShorttermLiabilitiesOtherThanProvisions>
-   <fsa:ShorttermLiabilitiesOtherThanProvisions basis:ancestor="treeGroup4" contextRef="instant_only_previous" decimals="0"
-                                                unitRef="DKK">176675</fsa:ShorttermLiabilitiesOtherThanProvisions>
-   <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only" decimals="0"
-                                       unitRef="DKK">379582</fsa:LiabilitiesOtherThanProvisions>
-   <fsa:LiabilitiesOtherThanProvisions basis:ancestor="treeGroup5" contextRef="instant_only_previous" decimals="0"
-                                       unitRef="DKK">176675</fsa:LiabilitiesOtherThanProvisions>
-   <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                             unitRef="DKK">934664</fsa:LiabilitiesAndEquity>
-   <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only_previous" decimals="0"
-                             unitRef="DKK">704693</fsa:LiabilitiesAndEquity>
-   <gsd:NameOfSubmittingEnterprise basis:ancestor="generelInfo" contextRef="duration_only">eyvind eklund</gsd:NameOfSubmittingEnterprise>
-   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">jernbanegade 9</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
-   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">9560 hadsund</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Materielle anlægsaktiver er aktiveret til anskaffelsespris med levetid 5 år (20% lineær afskrivning) Mindre nyanskaffelser (12.800) afskrives 100% ved anskaffelsen.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Varebeholdninger, igangværende arbejder er anskaffelsespris (arbejdsløn og materialer) og.debitorer er vurderet i forhold til tabsrisiko, der er ikke foretaget hensættelser.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Alle kendte gældsforpligtelser er medtaget.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Skyldig selskabsskat er medtaget tillige med eventualskat i balancen.&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+   <fsa:Revenue contextRef="c0" decimals="0" unitRef="u0">325664</fsa:Revenue>
+   <fsa:Revenue contextRef="c3" decimals="0" unitRef="u0">1325558</fsa:Revenue>
+   <fsa:ExternalExpenses contextRef="c0" decimals="0" unitRef="u0">135960</fsa:ExternalExpenses>
+   <fsa:ExternalExpenses contextRef="c3" decimals="0" unitRef="u0">212954</fsa:ExternalExpenses>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">189704</fsa:GrossResult>
+   <fsa:GrossResult contextRef="c3" decimals="0" unitRef="u0">1112604</fsa:GrossResult>
+   <fsa:EmployeeBenefitsExpense contextRef="c0" decimals="0" unitRef="u0">419613</fsa:EmployeeBenefitsExpense>
+   <fsa:EmployeeBenefitsExpense contextRef="c3" decimals="0" unitRef="u0">1009577</fsa:EmployeeBenefitsExpense>
+   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c0" decimals="0" unitRef="u0">37309</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c3" decimals="0" unitRef="u0">-236139</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-267218</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c3" decimals="0" unitRef="u0">339166</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:OtherFinanceIncome contextRef="c0" decimals="0" unitRef="u0">-1191</fsa:OtherFinanceIncome>
+   <fsa:OtherFinanceIncome contextRef="c3" decimals="0" unitRef="u0">1432</fsa:OtherFinanceIncome>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-268409</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c3" decimals="0" unitRef="u0">340598</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">-268409</fsa:ExtraordinaryProfitLossBeforeTax>
+   <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c3" decimals="0" unitRef="u0">340598</fsa:ExtraordinaryProfitLossBeforeTax>
+   <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">-1580</fsa:TaxExpense>
+   <fsa:TaxExpense contextRef="c3" decimals="0" unitRef="u0">88797</fsa:TaxExpense>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-266829</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">251801</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c5" decimals="0" unitRef="u0">98400</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c6" decimals="0" unitRef="u0">-266829</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c7" decimals="0" unitRef="u0">153401</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-266829</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">251801</fsa:ProfitLoss>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c8" decimals="0" unitRef="u0">26800</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c9" decimals="0" unitRef="u0">53600</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c8" decimals="0" unitRef="u0">26800</fsa:PropertyPlantAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c9" decimals="0" unitRef="u0">53600</fsa:PropertyPlantAndEquipment>
+   <fsa:NoncurrentAssets contextRef="c8" decimals="0" unitRef="u0">26800</fsa:NoncurrentAssets>
+   <fsa:NoncurrentAssets contextRef="c9" decimals="0" unitRef="u0">53600</fsa:NoncurrentAssets>
+   <fsa:RawMaterialsAndConsumables contextRef="c8" decimals="0" unitRef="u0">21785</fsa:RawMaterialsAndConsumables>
+   <fsa:RawMaterialsAndConsumables contextRef="c9" decimals="0" unitRef="u0">30220</fsa:RawMaterialsAndConsumables>
+   <fsa:Inventories contextRef="c8" decimals="0" unitRef="u0">21785</fsa:Inventories>
+   <fsa:Inventories contextRef="c9" decimals="0" unitRef="u0">30220</fsa:Inventories>
+   <fsa:ShorttermTradeReceivables contextRef="c8" decimals="0" unitRef="u0">48500</fsa:ShorttermTradeReceivables>
+   <fsa:ShorttermTradeReceivables contextRef="c9" decimals="0" unitRef="u0">93256</fsa:ShorttermTradeReceivables>
+   <fsa:ContractWorkInProgress contextRef="c8" decimals="0" unitRef="u0">37500</fsa:ContractWorkInProgress>
+   <fsa:ContractWorkInProgress contextRef="c9" decimals="0" unitRef="u0">71000</fsa:ContractWorkInProgress>
+   <fsa:OtherShorttermReceivables contextRef="c8" decimals="0" unitRef="u0">3000</fsa:OtherShorttermReceivables>
+   <fsa:OtherShorttermReceivables contextRef="c9" decimals="0" unitRef="u0">156397</fsa:OtherShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c8" decimals="0" unitRef="u0">89000</fsa:ShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c9" decimals="0" unitRef="u0">320653</fsa:ShorttermReceivables>
+   <fsa:OtherShorttermInvestments contextRef="c8" decimals="0" unitRef="u0">23275</fsa:OtherShorttermInvestments>
+   <fsa:ShorttermInvestments contextRef="c8" decimals="0" unitRef="u0">23275</fsa:ShorttermInvestments>
+   <fsa:CashAndCashEquivalents contextRef="c8" decimals="0" unitRef="u0">407062</fsa:CashAndCashEquivalents>
+   <fsa:CashAndCashEquivalents contextRef="c9" decimals="0" unitRef="u0">516670</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets contextRef="c8" decimals="0" unitRef="u0">541122</fsa:CurrentAssets>
+   <fsa:CurrentAssets contextRef="c9" decimals="0" unitRef="u0">867543</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c8" decimals="0" unitRef="u0">567922</fsa:Assets>
+   <fsa:Assets contextRef="c9" decimals="0" unitRef="u0">921143</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c8" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+   <fsa:ContributedCapital contextRef="c9" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+   <fsa:RetainedEarnings contextRef="c8" decimals="0" unitRef="u0">316571</fsa:RetainedEarnings>
+   <fsa:RetainedEarnings contextRef="c9" decimals="0" unitRef="u0">583401</fsa:RetainedEarnings>
+   <fsa:Equity contextRef="c8" decimals="0" unitRef="u0">441571</fsa:Equity>
+   <fsa:Equity contextRef="c9" decimals="0" unitRef="u0">708401</fsa:Equity>
+   <fsa:ProvisionsForDeferredTax contextRef="c8" decimals="0" unitRef="u0">0</fsa:ProvisionsForDeferredTax>
+   <fsa:ProvisionsForDeferredTax contextRef="c9" decimals="0" unitRef="u0">1580</fsa:ProvisionsForDeferredTax>
+   <fsa:Provisions contextRef="c8" decimals="0" unitRef="u0">0</fsa:Provisions>
+   <fsa:Provisions contextRef="c9" decimals="0" unitRef="u0">1580</fsa:Provisions>
+   <fsa:ShorttermTradePayables contextRef="c8" decimals="0" unitRef="u0">10093</fsa:ShorttermTradePayables>
+   <fsa:ShorttermTradePayables contextRef="c9" decimals="0" unitRef="u0">15671</fsa:ShorttermTradePayables>
+   <fsa:ShorttermTaxPayables contextRef="c8" decimals="0" unitRef="u0">87300</fsa:ShorttermTaxPayables>
+   <fsa:ShorttermTaxPayables contextRef="c9" decimals="0" unitRef="u0">74128</fsa:ShorttermTaxPayables>
+   <fsa:OtherShorttermPayables contextRef="c8" decimals="0" unitRef="u0">28958</fsa:OtherShorttermPayables>
+   <fsa:OtherShorttermPayables contextRef="c9" decimals="0" unitRef="u0">121363</fsa:OtherShorttermPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c8" decimals="0" unitRef="u0">126351</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c9" decimals="0" unitRef="u0">211162</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c8" decimals="0" unitRef="u0">126351</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c9" decimals="0" unitRef="u0">211162</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c8" decimals="0" unitRef="u0">567922</fsa:LiabilitiesAndEquity>
+   <fsa:LiabilitiesAndEquity contextRef="c9" decimals="0" unitRef="u0">921143</fsa:LiabilitiesAndEquity>
+   <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2013-05-01</gsd:PrecedingReportingPeriodStartDate>
+   <gsd:PredingReportingPeriodEndDate contextRef="c0">2014-04-30</gsd:PredingReportingPeriodEndDate>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Eyvind Eklund</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Jernbanegade 9</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">9560 Hadsund</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
 </xbrli:xbrl>

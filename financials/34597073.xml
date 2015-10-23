@@ -1,227 +1,171 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance"
-            xmlns:basis="http://xbrl.dcca.dk/Regnskab 2.0 Basis"
-            xmlns:fsa="http://xbrl.dcca.dk/fsa"
-            xmlns:arr="http://xbrl.dcca.dk/arr"
-            xmlns:xl="http://www.xbrl.org/2003/XLink"
-            xmlns:xhtml="http://www.w3.org/1999/xhtml"
-            xmlns:lnk="http://www.xbrl.org/2003/linkbase"
-            xmlns:ix="http://www.xbrl.org/2008/inlineXBRL"
-            xmlns:link="http://www.xbrl.org/2003/linkbase"
-            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-            xmlns:cmn="http://xbrl.dcca.dk/cmn"
-            xmlns:dst="http://xbrl.dcca.dk/dst"
-            xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
-            xmlns:gsd="http://xbrl.dcca.dk/gsd"
-            xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs"
-            xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
-            xmlns:ref="http://www.xbrl.org/2006/ref"
-            xmlns:mrv="http://xbrl.dcca.dk/mrv"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xmlns:sob="http://xbrl.dcca.dk/sob"
-            xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
-   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20130401/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20130401.xsd"
-                  xlink:type="simple"/>
-   <xbrli:context id="duration_only">
-      <xbrli:entity>
-         <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
-      </xbrli:entity>
-      <xbrli:period>
-         <xbrli:startDate>2012-06-20</xbrli:startDate>
-         <xbrli:endDate>2013-06-30</xbrli:endDate>
-      </xbrli:period>
-   </xbrli:context>
-   <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
-      <xbrli:entity>
-         <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
-      </xbrli:entity>
-      <xbrli:period>
-         <xbrli:startDate>2012-06-20</xbrli:startDate>
-         <xbrli:endDate>2013-06-30</xbrli:endDate>
-      </xbrli:period>
-      <xbrli:scenario>
-         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
-            <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
-         </xbrldi:typedMember>
-      </xbrli:scenario>
-   </xbrli:context>
-   <xbrli:context id="duration_auditorIdentifier_1">
-      <xbrli:entity>
-         <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
-      </xbrli:entity>
-      <xbrli:period>
-         <xbrli:startDate>2012-06-20</xbrli:startDate>
-         <xbrli:endDate>2013-06-30</xbrli:endDate>
-      </xbrli:period>
-      <xbrli:scenario>
-         <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
-            <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
-         </xbrldi:typedMember>
-      </xbrli:scenario>
-   </xbrli:context>
-   <xbrli:context id="duration_RetainedEarningsMember">
-      <xbrli:entity>
-         <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
-      </xbrli:entity>
-      <xbrli:period>
-         <xbrli:startDate>2012-06-20</xbrli:startDate>
-         <xbrli:endDate>2013-06-30</xbrli:endDate>
-      </xbrli:period>
-      <xbrli:scenario>
-         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
-      </xbrli:scenario>
-   </xbrli:context>
-   <xbrli:context id="instant_only">
-      <xbrli:entity>
-         <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
-      </xbrli:entity>
-      <xbrli:period>
-         <xbrli:instant>2013-06-30</xbrli:instant>
-      </xbrli:period>
-   </xbrli:context>
-   <xbrli:unit id="DKK">
-      <xbrli:measure>iso4217:DKK</xbrli:measure>
-   </xbrli:unit>
-   <gsd:InformationOnTypeOfSubmittedReport basis:ancestor="generelInfo" basis:version="2" contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
-   <gsd:DateOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">2013-10-07</gsd:DateOfGeneralMeeting>
-   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting basis:ancestor="generalMeetingDetails" contextRef="duration_only">Poul Mahrt</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
-   <gsd:NameOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">DAN ENERGI BYG ApS</gsd:NameOfReportingEntity>
-   <gsd:AddressOfReportingEntityStreetName basis:ancestor="generelInfo" contextRef="duration_only">Rathsacksvej</gsd:AddressOfReportingEntityStreetName>
-   <gsd:AddressOfReportingEntityStreetBuildingIdentifier basis:ancestor="generelInfo" contextRef="duration_only">4</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
-   <gsd:AddressOfReportingEntityPostCodeIdentifier basis:ancestor="generelInfo" contextRef="duration_only">1862</gsd:AddressOfReportingEntityPostCodeIdentifier>
-   <gsd:AddressOfReportingEntityDistrictName basis:ancestor="generelInfo" contextRef="duration_only">Frederiksberg C</gsd:AddressOfReportingEntityDistrictName>
-   <gsd:EmailOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">kbh-malerfirma@hotmail.dk</gsd:EmailOfReportingEntity>
-   <gsd:IdentificationNumberCvrOfReportingEntity basis:ancestor="generelInfo" contextRef="duration_only">34597073</gsd:IdentificationNumberCvrOfReportingEntity>
-   <gsd:ReportingPeriodStartDate basis:ancestor="generelInfo" contextRef="duration_only">2012-06-20</gsd:ReportingPeriodStartDate>
-   <gsd:ReportingPeriodEndDate basis:ancestor="generelInfo" contextRef="duration_only">2013-06-30</gsd:ReportingPeriodEndDate>
-   <sob:StatementByExecutiveAndSupervisoryBoards basis:ancestor="statementByExecutive" contextRef="duration_only">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Undertegnede har dags dato aflagt årsrapporten for perioden
-20/6 2012 - 30/6 2013 for Dan Energi Byg 
-&lt;br/&gt; ApS. Årsrapporten er aflagt i overensstemmelse med
-årsregnskabsloven. Vi anser den valgte 
-&lt;br/&gt; regnskabspraksis for hensigtsmæssig, således at
-årsregnskabet giver et retvisende billede 
-&lt;br/&gt; af selskabets aktiver og passiver, finansielle stilling samt
-resultat. 
-&lt;br/&gt;  
-&lt;br/&gt; Selskabet skal ikke revideres. 
-&lt;br/&gt;  
-&lt;br/&gt; Selskabet opfylder de lovbestemte grænseværdier,
-som betyder, at selskabet ikke skal revideres. 
-&lt;br/&gt;  &lt;/p&gt;
-</sob:StatementByExecutiveAndSupervisoryBoards>
-   <cmn:NameAndSurnameOfMemberOfExecutiveBoard basis:ancestor="DetailsOnApprovalOfAnnualReportExecutiveAbstract"
-                                               contextRef="duration_memberOfExecutiveBoardIdentifier_1">Dan Krogh Andersen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
-   <arr:AuditorsReportsOtherReports basis:ancestor="revision" contextRef="duration_only">Revisors erklæring om opstilling af årsregnskab</arr:AuditorsReportsOtherReports>
-   <arr:AddresseeOfAuditorsReportOnOtherReport basis:ancestor="revision" contextRef="duration_only">Til kapitalejerne i Dan Energi Byg ApS</arr:AddresseeOfAuditorsReportOnOtherReport>
-   <arr:DescriptionOfOtherEngagement basis:ancestor="revision" contextRef="duration_only">På baggrund af den foreliggende bogføring, hertil hørende bilagsmateriale, ejernes oplysninger og anden	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;forelagt dokumentation har vi i overensstemmelse med danske revisionsstandarder ydet assistance med	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;udarbejdelse  af virksomhedens årsregnskab pr. 30. juni 2013.	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Ledelsen har ansvaret for årsregnskabet	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Ledelsen har ansvaret for at udarbejde og aflægge et årsregnskab, der giver et retvisende billede i overens-	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;stemmelse med årsregnskabsloven. Dette ansvar omfatter udformning, implementering og opretholdelse	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;af interne kontroller, der er relevante for at udarbejde og aflægge et årsregnskab, der giver et retvisende	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;billede uden væsentlig fejlinformation, uanset om fejlinformationen skyldes besvigelser eller fejl, samt valg	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;og anvendelse af en hensigtsmæssig regnskabspraksis og udøvelse af regnskabsmæssige skøn, som er	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;rimelige efter omstændighederne.	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Revisor ansvar	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;Vi har ikke foretaget revision eller review af årsregnskabet og udtrykker derfor ikke nogen grad af sikkerhed	
-&lt;br xmlns="http://www.w3.org/1999/xhtml"/&gt;herom.</arr:DescriptionOfOtherEngagement>
-   <arr:SignatureOfAuditorsPlace basis:ancestor="revision" contextRef="duration_only">Frederiksberg</arr:SignatureOfAuditorsPlace>
-   <arr:SignatureOfAuditorsDate basis:ancestor="revision" contextRef="duration_only">2013-10-07</arr:SignatureOfAuditorsDate>
-   <cmn:NameAndSurnameOfAuditor basis:ancestor="DetailsOnSignatureAuditorsAbstract"
-                                contextRef="duration_auditorIdentifier_1">Poul Mahrt</cmn:NameAndSurnameOfAuditor>
-   <cmn:DescriptionOfAuditor basis:ancestor="DetailsOnSignatureAuditorsAbstract"
-                             contextRef="duration_auditorIdentifier_1">Statsautoriseret revisor</cmn:DescriptionOfAuditor>
-   <cmn:NameOfAuditFirm basis:ancestor="DetailsOnSignatureAuditorsAbstract"
-                        contextRef="duration_auditorIdentifier_1">Revisionsfirmaet Revico</cmn:NameOfAuditFirm>
-   <fsa:InformationOnReportingClassOfEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
-   <fsa:ClassOfReportingEntity basis:ancestor="regnskabspraksis" contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
-   <fsa:DisclosureOfAccountingPolicies basis:ancestor="regnskabspraksis" contextRef="duration_only">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsregnskabet er aflagt efter årsregnskabslovens
-bestemmelser for regnskabsklasse B.
-&lt;br/&gt; Den anvendte regnskabspraksis, der er uændret i forhold
-til sidste år er i hovedtræk følgende:
-&lt;br/&gt;  &lt;/p&gt;
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:context id="c0">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-07-01</xbrli:startDate>
+      <xbrli:endDate>2014-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-07-01</xbrli:startDate>
+      <xbrli:endDate>2014-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-06-20</xbrli:startDate>
+      <xbrli:endDate>2013-06-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-07-01</xbrli:startDate>
+      <xbrli:endDate>2014-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-06-20</xbrli:startDate>
+      <xbrli:endDate>2013-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="c5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2014-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">34597073</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-06-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:DateOfGeneralMeeting contextRef="c0">2014-12-18</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Dan Krogh Andersen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">DAN ENERGI BYG ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Rathsacksvej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">4</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">1862</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Frederiksberg C</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:EmailOfReportingEntity contextRef="c0" xml:lang="da">dankrogh7@gmail.com</gsd:EmailOfReportingEntity>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">34597073</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="c0">2013-07-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="c0">2014-06-30</gsd:ReportingPeriodEndDate>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Undertegnede har dags dato aflagt årsrapporten for perioden 20/6 2012 - 30/6 2013 for Dan Energi Byg ApS. Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven. Vi anser den valgte 
+&lt;br/&gt;regnskabspraksis for hensigtsmæssig, således at årsregnskabet giver et retvisende billede 
+&lt;br/&gt;af selskabets aktiver og passiver, finansielle stilling samt resultat. 
+&lt;br/&gt; 
+&lt;br/&gt;Selskabet skal ikke revideres efter gældende regler. 
+&lt;br/&gt; &lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Dan Krogh Andersen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Anvendt regnskabspraksis&lt;/h2&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsregnskabet er aflagt efter årsregnskabslovens bestemmelser for regnskabsklasse B.
+&lt;br/&gt;Den anvendte regnskabspraksis, der er uændret i forhold til sidste år er i hovedtræk følgende:
+&lt;br/&gt; &lt;/p&gt;
 &lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h2&gt;
 &lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Indtægtskriterium
-&lt;br/&gt; Nettoomsætning indregnes i resultatopgørelsen,
-såfremt levering og risikoovergang til køber har
-&lt;br/&gt; fundet sted inden regnskabsårets udgang.
+&lt;br/&gt;Nettoomsætning indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har
+&lt;br/&gt;fundet sted inden regnskabsårets udgang.
 &lt;br/&gt;
-&lt;br/&gt; Selskabsskat og udskudt skat
-&lt;br/&gt; Selskabsskatten er afsat med 25%.
-&lt;br/&gt; Udskudt skat er beregnet med 25% af forskellen mellem
-regnskabsmæssig og skattemæssig værdi
-&lt;br/&gt; på anlægsaktiver.
-&lt;br/&gt; Udskudte skatteaktiver indregnes alene med den værdi,
-de forventes at kunne realiseres til.
-&lt;br/&gt;  &lt;/p&gt;
+&lt;br/&gt;Selskabsskat og udskudt skat
+&lt;br/&gt;Selskabsskatten er afsat med 25%.
+&lt;br/&gt;Udskudt skat er beregnet med 25% af forskellen mellem regnskabsmæssig og skattemæssig værdi
+&lt;br/&gt;på anlægsaktiver.
+&lt;br/&gt;Udskudte skatteaktiver indregnes alene med den værdi, de forventes at kunne realiseres til.
+&lt;br/&gt; &lt;/p&gt;
 &lt;h2 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h2&gt;
 &lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Materielle anlægsaktiver
-&lt;br/&gt; Materielle anlægsaktiver er målt til
-anskaffelsesværdi med fradrag af foretagne afskrivninger.
-&lt;br/&gt; Driftsmidler afskrives lineært over 5 år.
-&lt;br/&gt; Inventaranskaffelser under kr. 12.300 pr. stk.
-udgiftsføres i anskaffelsesåret.
+&lt;br/&gt;Materielle anlægsaktiver er målt til anskaffelsesværdi med fradrag af foretagne afskrivninger.
+&lt;br/&gt;Driftsmidler afskrives lineært over 5 år.
+&lt;br/&gt;Inventaranskaffelser under kr. 12.300 pr. stk. udgiftsføres i anskaffelsesåret.
 &lt;br/&gt;
-&lt;br/&gt; Tilgodehavender
-&lt;br/&gt; Andre tilgodehavender er målt individuelt, og
-nødvendige hensættelser til tab foretages, hvis det
-&lt;br/&gt; skønnes påkrævet.
+&lt;br/&gt;Tilgodehavender
+&lt;br/&gt;Andre tilgodehavender er målt individuelt, og nødvendige hensættelser til tab foretages, hvis det
+&lt;br/&gt;skønnes påkrævet.
 &lt;br/&gt;
 &lt;br/&gt;
-&lt;br/&gt; Gældsforpligtelser
-&lt;br/&gt; Gæld er målt til amortiseret kostpris, svarende
-til nominel værdi.
-&lt;br/&gt;  &lt;/p&gt;
-</fsa:DisclosureOfAccountingPolicies>
-   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
-                                                                                                                                 unitRef="DKK">8000</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
-   <fsa:ProfitLossFromOrdinaryOperatingActivities basis:ancestor="treeGroup3" contextRef="duration_only" decimals="0"
-                                                  unitRef="DKK">-8000</fsa:ProfitLossFromOrdinaryOperatingActivities>
-   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax basis:ancestor="treeGroup4" contextRef="duration_only" decimals="0"
-                                                  unitRef="DKK">-8000</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
-   <fsa:ExtraordinaryProfitLossBeforeTax basis:ancestor="treeGroup6" contextRef="duration_only" decimals="0"
-                                         unitRef="DKK">-8000</fsa:ExtraordinaryProfitLossBeforeTax>
-   <fsa:ProfitLoss basis:ancestor="treeGroup7" contextRef="duration_only" decimals="0"
-                   unitRef="DKK">-8000</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_RetainedEarningsMember"
-                   decimals="0"
-                   unitRef="DKK">-8000</fsa:ProfitLoss>
-   <fsa:ProfitLoss basis:ancestor="treeGroup8" contextRef="duration_only" decimals="0"
-                   unitRef="DKK">-8000</fsa:ProfitLoss>
-   <fsa:FixturesFittingsToolsAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
-                                          unitRef="DKK">32000</fsa:FixturesFittingsToolsAndEquipment>
-   <fsa:PropertyPlantAndEquipment basis:ancestor="treeGroup2" contextRef="instant_only" decimals="0"
-                                  unitRef="DKK">32000</fsa:PropertyPlantAndEquipment>
-   <fsa:NoncurrentAssets basis:ancestor="treeGroup4" contextRef="instant_only" decimals="0"
-                         unitRef="DKK">32000</fsa:NoncurrentAssets>
-   <fsa:OtherShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                                  unitRef="DKK">40000</fsa:OtherShorttermReceivables>
-   <fsa:ShorttermReceivables basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                             unitRef="DKK">40000</fsa:ShorttermReceivables>
-   <fsa:CurrentAssets basis:ancestor="treeGroup9" contextRef="instant_only" decimals="0"
-                      unitRef="DKK">40000</fsa:CurrentAssets>
-   <fsa:Assets basis:ancestor="treeGroup10" contextRef="instant_only" decimals="0"
-               unitRef="DKK">72000</fsa:Assets>
-   <fsa:ContributedCapital basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
-                           unitRef="DKK">80000</fsa:ContributedCapital>
-   <fsa:RetainedEarnings basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
-                         unitRef="DKK">-8000</fsa:RetainedEarnings>
-   <fsa:Equity basis:ancestor="treeGroup1" contextRef="instant_only" decimals="0"
-               unitRef="DKK">72000</fsa:Equity>
-   <fsa:LiabilitiesAndEquity basis:ancestor="treeGroup6" contextRef="instant_only" decimals="0"
-                             unitRef="DKK">72000</fsa:LiabilitiesAndEquity>
-   <fsa:DisclosureOfContingentLiabilities basis:ancestor="noter" contextRef="duration_only">
-&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabet har ingen eventualforpligtelser&lt;/p&gt;
-</fsa:DisclosureOfContingentLiabilities>
-   <gsd:NameOfSubmittingEnterprise basis:ancestor="generelInfo" contextRef="duration_only">Revisionsfirmaet Revico v/statsautoriseret revisor Poul Mahrt</gsd:NameOfSubmittingEnterprise>
-   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber basis:ancestor="generelInfo" contextRef="duration_only">Rathsacksvej 4</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
-   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown basis:ancestor="generelInfo" contextRef="duration_only">1862 Frederiksberg C</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+&lt;br/&gt;Gældsforpligtelser
+&lt;br/&gt;Gæld er målt til amortiseret kostpris, svarende til nominel værdi.
+&lt;br/&gt; &lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c0" decimals="0" unitRef="u0">8000</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c2" decimals="0" unitRef="u0">8000</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-8000</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c2" decimals="0" unitRef="u0">-8000</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-8000</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c2" decimals="0" unitRef="u0">-8000</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c0" decimals="0" unitRef="u0">-8000</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="c2" decimals="0" unitRef="u0">-8000</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-8000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">-8000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">-8000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">-8000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-8000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">-8000</fsa:ProfitLoss>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="c5" decimals="0" unitRef="u0">24000</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="c6" decimals="0" unitRef="u0">32000</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="c5" decimals="0" unitRef="u0">24000</fsa:PropertyPlantAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="c6" decimals="0" unitRef="u0">32000</fsa:PropertyPlantAndEquipment>
+  <fsa:NoncurrentAssets contextRef="c5" decimals="0" unitRef="u0">24000</fsa:NoncurrentAssets>
+  <fsa:NoncurrentAssets contextRef="c6" decimals="0" unitRef="u0">32000</fsa:NoncurrentAssets>
+  <fsa:OtherShorttermReceivables contextRef="c5" decimals="0" unitRef="u0">40000</fsa:OtherShorttermReceivables>
+  <fsa:OtherShorttermReceivables contextRef="c6" decimals="0" unitRef="u0">40000</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="c5" decimals="0" unitRef="u0">40000</fsa:ShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="c6" decimals="0" unitRef="u0">40000</fsa:ShorttermReceivables>
+  <fsa:CurrentAssets contextRef="c5" decimals="0" unitRef="u0">40000</fsa:CurrentAssets>
+  <fsa:CurrentAssets contextRef="c6" decimals="0" unitRef="u0">40000</fsa:CurrentAssets>
+  <fsa:Assets contextRef="c5" decimals="0" unitRef="u0">64000</fsa:Assets>
+  <fsa:Assets contextRef="c6" decimals="0" unitRef="u0">72000</fsa:Assets>
+  <fsa:ContributedCapital contextRef="c5" decimals="0" unitRef="u0">80000</fsa:ContributedCapital>
+  <fsa:ContributedCapital contextRef="c6" decimals="0" unitRef="u0">80000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings contextRef="c5" decimals="0" unitRef="u0">-16000</fsa:RetainedEarnings>
+  <fsa:RetainedEarnings contextRef="c6" decimals="0" unitRef="u0">-8000</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="c5" decimals="0" unitRef="u0">64000</fsa:Equity>
+  <fsa:Equity contextRef="c6" decimals="0" unitRef="u0">72000</fsa:Equity>
+  <fsa:LiabilitiesAndEquity contextRef="c5" decimals="0" unitRef="u0">64000</fsa:LiabilitiesAndEquity>
+  <fsa:LiabilitiesAndEquity contextRef="c6" decimals="0" unitRef="u0">72000</fsa:LiabilitiesAndEquity>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2012-06-20</gsd:PrecedingReportingPeriodStartDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="c0">2013-06-30</gsd:PredingReportingPeriodEndDate>
+  <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Revisionsfirmaet Revico ApS</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Rathsacksvej 4</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">1862 Frederiksberg C</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
 </xbrli:xbrl>
